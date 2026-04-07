@@ -1,0 +1,4988 @@
+@media only screen and (min-width: 1280px) {
+  .sub-menu {
+    box-shadow: 0 3px 5px rgb(0 0 0/20%);
+    /* 			transition: all 0.5s;
+			-webkit-transition: all 0.5s;
+			-moz-transition: all 0.5s;
+			-ms-transition: all 0.5s;
+			-o-transition: all 0.5s; */
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .menu-item-has-children:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+  }
+}
+
+
+@media screen and (max-width: 1439px) {
+  .banner-content::after {
+    bottom: -155px;
+    left: 100px;
+  }
+
+  .choices-section::after {
+    width: 100%;
+    height: 92%;
+    top: 0;
+    background-size: contain;
+  }
+
+  .last-2-box {
+    width: 118%;
+  }
+
+  .customer-support-section::after {
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 1365px) {
+  .banner-content::after {
+    bottom: -210px;
+    left: 80px;
+  }
+
+  .msg-box {
+    right: 40px;
+    /* bottom: 115px; */
+  }
+
+  .top-choice {
+    margin-top: 90px;
+  }
+
+  .first-2-box {
+    gap: 70px;
+  }
+
+  .last-2-box {
+    margin-top: 110px;
+    width: 115%;
+  }
+
+  .choices-section::after {
+    height: 95%;
+  }
+
+  #footer {
+    padding-bottom: 40px;
+  }
+
+  .install-guides .single-fleet-box {
+    width: 22vw;
+  }
+
+  .genX .single-fleet-box {
+    width: 17% !important;
+  }
+
+  #routing-dispatching .right-content::after {
+    left: -118px;
+  }
+
+  #productivity .left-content-sol {
+    width: inherit;
+  }
+
+  #partner-fleet-boxes .single-fleet-box {
+    padding-left: 24px;
+  }
+
+  .customer-support-section::after {
+    height: 47%;
+    top: 130px;
+  }
+
+  /* .event-gallery img:nth-child(1) {
+    width: 97%;
+  } */
+
+  .event-gallery {
+    justify-content: center;
+  }
+
+  /* .event-gallery img:nth-child(2) {
+    width: 55%;
+  }
+
+  .event-gallery img:nth-child(3) {
+    width: 23%;
+  }
+
+  .gallery-left img:nth-child(1) {
+    width: 100%;
+  }
+
+  .gallery-left img:nth-child(2) {
+    width: 65%;
+  }
+  .gallery-left img:nth-child(3),
+  .gallery-left img:nth-child(4),
+  .gallery-left img:nth-child(5) {
+    width: 31.5%;
+  } */
+  .gallery-left .hov-event:nth-child(2) {
+    width: 65%;
+  }
+
+  .gallery-left {
+    width: 81%;
+  }
+
+  .gallery-left .hov-event:nth-child(1) {
+    width: 32%;
+  }
+
+  .gallery-left .hov-event:nth-child(3),
+  .gallery-left .hov-event:nth-child(4),
+  .gallery-left .hov-event:nth-child(5) {
+    width: 32%;
+  }
+
+  .event-gallery,
+  .gallery-left {
+    gap: 10px;
+  }
+
+  /* .gallery-right {
+    width: 25%;
+  } */
+  .page-id-1026 #routing-dispatching .left-content-sol,
+  .page-id-40614 #routing-dispatching .left-content-sol {
+    margin-top: 160px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .page-id-46547 #tour-fleets .fleet-boxes .single-fleet-box {
+    width: 31%;
+  }
+
+  .term-genx-harness-options .right-content img,
+  .postid-40246 .right-content img {
+    position: unset;
+    right: 0;
+  }
+
+  #new-template-fleet .about-fleet .fleet-para p {
+    font-size: 16px;
+  }
+
+  .page-template-custom-tools .about-fleet {
+    padding-bottom: 50px;
+  }
+
+  .page-template-custom-tools .about-fleet:not(:first-child) {
+    margin-top: 50px;
+  }
+
+  .page-id-40331 section#dtc-box .tour-box {
+    padding: 25px 15px 0 15px;
+  }
+
+  .get-started {
+    gap: 20px;
+  }
+
+  .left-content h1 {
+    font-size: 54px;
+  }
+
+  .right-content {
+    margin-top: 245px;
+  }
+
+  .solution .right-content {
+    margin-top: 180px;
+  }
+
+  .solution .right-content::after,
+  #benefits .right-content::after,
+  #other-services .right-content::after,
+  #partner-detail-hero .right-content::after,
+  .fuel-ban-after .right-content::after,
+  .dev .right-content::after,
+  #install-banner .right-content::after,
+  .integrations .right-content::after,
+  .vis-aft .right-content::after,
+  .sust-hero .right-content::after,
+  .prevent .right-content::after,
+  .guide-new .right-content::after,
+  #new-width .right-content::after,
+  #roi-width .right-content::after {
+    display: none;
+  }
+
+  .banner-content::after {
+    bottom: -157px;
+  }
+
+  .hamburger {
+    display: block;
+    position: relative;
+    z-index: 999;
+  }
+
+  .hamburger button.active {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .hamburger button {
+    -webkit-transition: 0.8s ease-in-out;
+    transition: 0.8s ease-in-out;
+    position: relative;
+    background: transparent;
+    outline: 0px;
+    border: 0px;
+    z-index: 2;
+  }
+
+  .hamburger button.active span:nth-child(1) {
+    display: none;
+  }
+
+  .hamburger button.active span:nth-child(2) {
+    -webkit-transform: translate(0px, 12px);
+    transform: translate(0px, 12px);
+  }
+
+  .hamburger button.active span:nth-child(3) {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  .logo-img-none {
+    display: block;
+  }
+
+  .get-started #navbar {
+    background-color: #e8f4ff;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 5;
+    left: -100%;
+    top: 0;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    transition: 0.4s ease-in-out;
+  }
+
+  .get-started #navbar.active {
+    left: 0;
+    background: #fff;
+  }
+
+  .get-started #navbar ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  .li-none {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .li-none li p,
+  #navbar .li-none li a {
+    display: flex;
+    gap: 20px;
+    color: #53a42a;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.84px;
+    text-transform: uppercase;
+  }
+
+  #navbar ul li a {
+    font-size: 20px;
+    display: flex;
+  }
+
+  .green {
+    filter: brightness(0) saturate(100%) invert(45%) sepia(85%) saturate(1070%) hue-rotate(71deg) brightness(100%) contrast(103%);
+    margin-right: 10px;
+  }
+
+  .sol-box-4 {
+    height: unset;
+  }
+
+  .top-choice {
+    margin-top: unset;
+  }
+
+  .top-choice h2 {
+    font-size: 40px;
+  }
+
+  .top-choice p {
+    font-size: 16px;
+  }
+
+  .first-2-box {
+    gap: 40px;
+  }
+
+  .last-2-box {
+    margin-top: 50px;
+  }
+
+  .sol-box-1,
+  .sol-box-4 {
+    padding: 42px 0px 40px 20px;
+    width: 50%;
+  }
+
+  .sol-box-2,
+  .sol-box-3 {
+    width: 50%;
+  }
+
+  .sol-box-2::after {
+    width: 65%;
+    height: 33%;
+  }
+
+  .choice-boxes {
+    margin-top: unset;
+  }
+
+  .top-choice h2 {
+    width: 100%;
+  }
+
+  .achievements-section,
+  .partner-section,
+  .solution-section,
+  .choices-section,
+  .capabilitites-section,
+  .tour-section,
+  .testimonial-section,
+  .blog-section {
+    margin-top: 60px;
+  }
+
+  .sol-box-3 .sol-1-props {
+    margin-top: 40px;
+  }
+
+  .test-tab-area {
+    margin: 40px auto;
+    width: fit-content;
+  }
+
+  .system input {
+    width: 250px;
+  }
+
+  .capabilitites-section {
+    padding: 60px 0;
+  }
+
+  .gps-section {
+    margin-top: 50px;
+  }
+
+  .solution .capabilities-container {
+    padding-bottom: 60px;
+  }
+
+  .solution .testimonial-section {
+    margin-top: 50px;
+  }
+
+  .single-fleet-box {
+    width: 48.6%;
+  }
+
+  .fleet-boxes {
+    gap: 27px;
+  }
+
+  .fleets-section,
+  .gps-fleet-management .partner-section,
+  .success-story-section,
+  .compare-table-section,
+  .faq-section {
+    margin-top: 60px;
+  }
+
+  .gps-fleet-management .right-content::after {
+    display: none;
+  }
+
+  .gps-fleet-management .right-content {
+    margin-top: 200px;
+  }
+
+  /*   .gps-fleet-management .hero {
+    height: auto;
+    padding-bottom: 60px;
+  } */
+
+  .success-content-area {
+    gap: 32px;
+  }
+
+  .success-content-area .success-left {
+    width: 36%;
+  }
+
+  /*   .driver-safety-scoreCard .hero {
+    height: auto;
+    padding-bottom: 50px;
+  } */
+
+  /*   .driver-safety-scoreCard .right-content {
+    margin-top: 170px;
+  } */
+
+  .driver-safety-scoreCard .right-content::after,
+  #geo-fence .right-content::after,
+  #dash-camera .right-content::after {
+    display: none;
+  }
+
+  .driver-safety-scoreCard .about-fleet h3 {
+    font-size: 30px;
+  }
+
+  #geo-fence-tour .tour-p {
+    width: 70%;
+  }
+
+  .reduce-excessive-idling .purpose h3 {
+    font-size: 28px;
+  }
+
+  .reduce-excessive-idling .all-purposes {
+    padding-bottom: 50px;
+  }
+
+  #routing-dispatching .right-content::after {
+    display: none;
+  }
+
+  #routing-dispatching .right-content {
+    margin-top: 130px;
+  }
+
+  .goose-section {
+    padding-top: 60px;
+  }
+
+  .goose-content {
+    padding-bottom: 60px;
+  }
+
+  .goose-fleet .all-purposes .purpose h3 {
+    font-size: 27px;
+  }
+
+  .goose-fleet .all-purposes,
+  .goose-fleet .border,
+  .goose-mobiles {
+    padding-bottom: 60px;
+  }
+
+  #geo-fence-tour {
+    margin-top: 60px;
+  }
+
+  .goose-fleet .all-purposes {
+    margin-bottom: 60px;
+  }
+
+  .eta-alert .purpose h3 {
+    width: 100% !important;
+  }
+
+  .eta-alert .tour-p,
+  .equip-tour .tour-p {
+    width: unset;
+  }
+
+  .device .single-fleet-box {
+    margin-bottom: 98px !important;
+  }
+
+  .device .fuel-btns {
+    margin-top: -48px;
+  }
+
+  .install-guides .single-fleet-box {
+    width: 20vw;
+  }
+
+  #plug .single-fleet-box {
+    width: 48%;
+  }
+
+  #dash-camera-options .single-fleet-box {
+    width: 48.5%;
+  }
+
+  #dash-camera-options .about-fleet h3 {
+    width: 32%;
+  }
+
+  #guide {
+    width: 70% !important;
+  }
+
+  .integration-head {
+    padding-top: 50px;
+  }
+
+  #integration-fleet .all-purposes,
+  #about-fleet-border {
+    padding-bottom: 60px;
+  }
+
+  #plan-fleets #plan-btns {
+    margin-top: 48px !important;
+    padding-bottom: 60px;
+  }
+
+  .plan-box,
+  #benefit-fleet .single-fleet-box {
+    width: 48%;
+  }
+
+  #benifits-achievement {
+    margin-top: 50px;
+  }
+
+  #productivity .left-content-sol {
+    width: inherit;
+  }
+
+  #service-border {
+    padding-top: 40px !important;
+  }
+
+  .key-construction {
+    margin-top: 40px;
+  }
+
+  .key-partner {
+    padding-bottom: 60px;
+  }
+
+  .press-categories p,
+  .person-info p {
+    font-size: 14px;
+  }
+
+  .press-para p,
+  .press-about p,
+  .press-share span,
+  .Source-list li {
+    font-size: 16px;
+  }
+
+  .person-info h6 {
+    font-size: 18px;
+  }
+
+  #faq-section .border {
+    padding-bottom: 50px;
+  }
+
+  #contact-us .border,
+  #contact-us .border-form {
+    padding-bottom: 60px;
+  }
+
+  #installation-fleet .single-fleet-box {
+    width: 22.5%;
+  }
+
+  #user-guide-fleet .single-fleet-box {
+    width: 22.5%;
+  }
+
+  #support-about {
+    margin-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  #support-about-2 {
+    margin-top: 60px;
+  }
+
+  #support-about .fleet-para p,
+  #support-form-area .fleet-para span,
+  .inner-fleet-span-2 p,
+  .inner-fleet-span-2 span,
+  #support-press .fleet-para p,
+  .list-para ul li,
+  .error-inner p {
+    font-size: 16px !important;
+  }
+
+  #support-press .about-fleet {
+    margin-bottom: 40px;
+  }
+
+  .contact-form-area-2 {
+    margin-top: 50px !important;
+  }
+
+  #sp-border {
+    padding-bottom: unset;
+  }
+
+  .error-inner p:last-child {
+    margin-top: 30px;
+  }
+
+  .error-inner p:nth-child(3) {
+    margin-top: 10px;
+  }
+
+  #research-tools-fleets .fleet-para p,
+  #system-overview .about-fleet .fleet-para p,
+  #system-overview .about-fleet .fleet-para ul li {
+    font-size: 16px;
+  }
+
+  #system-overview .about-fleet .fleet-para h3 {
+    font-size: 30px;
+  }
+
+  .presenter-head h2,
+  #partner-purposes .purpose-head h2 {
+    font-size: 34px;
+  }
+
+  #system-about,
+  #system-overview .border-form,
+  #system-overview .sp-border {
+    padding-bottom: 50px;
+  }
+
+  .presenter-head {
+    margin-top: 50px;
+  }
+
+  #partner-border-form {
+    padding-bottom: 50px;
+  }
+
+  #partner-form .fleet-para p,
+  #partner-detail-fleet .about-fleet p,
+  .partner-content ul li {
+    font-size: 16px;
+  }
+
+  #partner-detail-fleet .box-area {
+    margin-bottom: -40px;
+  }
+
+  #partner-purposes {
+    margin-top: 50px;
+  }
+
+  .customer-support-section::after {
+    height: 38%;
+    top: 103px;
+  }
+
+  .customer-boxes .cus-box:nth-child(2) {
+    margin-left: 165px;
+    margin-top: 75px;
+  }
+
+  .customer-boxes .cus-box:nth-child(1) {
+    float: right;
+    margin-right: 150px;
+    margin-top: -105px;
+  }
+
+  .other-cus-box {
+    display: flex;
+    justify-content: flex-end;
+    gap: 220px;
+    position: relative;
+    z-index: 1;
+    margin-top: 12px;
+  }
+
+  .cus-box {
+    padding: 15px;
+  }
+
+  #awards .fleet-para p {
+    font-size: 16px;
+  }
+
+  #awards,
+  .cus-border,
+  .customer-support-section {
+    padding-bottom: 50px;
+  }
+
+  #achievement-border {
+    padding-top: 50px;
+  }
+
+  #achievement-border .single-fleet-box h3 {
+    font-size: 18px;
+  }
+
+  #achievement-border .box-area,
+  .fleet-repeat-section .box-area {
+    margin-bottom: -35px;
+  }
+
+  .fleet-repeat-section .border {
+    margin-bottom: 50px;
+  }
+
+  .gallery-2 {
+    /* margin-top: unset; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gallery-right {
+    width: 24%;
+  }
+
+  #carrer-purposes {
+    margin-bottom: 50px;
+  }
+
+  .acm-inner p {
+    font-size: 16px;
+  }
+
+  .acm-inner p:nth-child(2) {
+    margin-left: 70px;
+  }
+
+  .acm-inner p:nth-child(1) {
+    margin-right: 0;
+  }
+
+  .gallery-border {
+    padding-bottom: 50px;
+  }
+
+  .event-head {
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+
+  #system-overview .sp-border {
+    padding-bottom: 30px;
+  }
+
+  #referal-program .fleet-para p,
+  .question-area ul li {
+    font-size: 16px;
+  }
+
+  #referal-about-form {
+    padding-bottom: 50px;
+  }
+
+  .qualified-question {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .question-img-area img {
+    height: 100%;
+  }
+
+  .q-green,
+  .q-blue {
+    font-size: 12px;
+  }
+
+  #referal-program .fleet-para p:nth-child(2) {
+    margin-top: 20px;
+  }
+
+  #referal-program h3,
+  #referal-program .fleet-para {
+    width: 100%;
+  }
+
+  #checklist .fleet-para p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  #checklist .fuel-btns {
+    padding-bottom: 40px;
+  }
+
+  .c-support {
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #checklist-boxes .single-fleet-box {
+    width: 48%;
+  }
+
+  .accident-a {
+    width: 60%;
+  }
+
+  .dtc-head {
+    margin-top: 50px;
+  }
+
+  .dtc-table-area,
+  .dtc-border {
+    padding-bottom: 50px;
+  }
+
+  #dtc-box .tour-box p {
+    width: 90%;
+  }
+
+  #event-tabbing {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+  }
+
+  #company-event-para p {
+    font-size: 16px;
+  }
+
+  .event-show a {
+    margin-top: 30px;
+  }
+
+  #company-btns {
+    padding-bottom: 50px;
+  }
+
+  #roi-calculator .about-fleet {
+    padding-bottom: 50px;
+  }
+
+  #roi-form {
+    padding-top: 30px;
+  }
+
+  #roi-calculator .fleet-para p {
+    font-size: 16px;
+  }
+
+  #about-fieldlogix .about-fleet h3 {
+    width: 50%;
+  }
+
+  #blue-fleet-para,
+  #history,
+  .idustry {
+    margin-top: 30px;
+  }
+
+  .blue-box p {
+    font-size: 18px !important;
+  }
+
+  .history-slider .slick-dots {
+    left: 24px;
+  }
+
+  #top {
+    margin-top: 90px;
+  }
+
+  #view {
+    margin-bottom: 50px;
+  }
+
+  .industry-left p {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .industry-right img {
+    margin-top: unset;
+  }
+
+  .all-blogs .blog-box {
+    width: 48%;
+  }
+
+  .blog-upper-left img {
+    height: 100%;
+    width: 100%;
+  }
+
+  /*   .blog-content img {
+    width: 100%;
+  } */
+
+  .blog-border {
+    padding-bottom: 50px;
+  }
+
+  .gps-fleet-management .border {
+    padding-bottom: 50px;
+  }
+
+  .compare-table-area {
+    padding-bottom: 50px;
+  }
+
+  .page-tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 85%;
+  }
+
+  #productivity .right-content::after {
+    display: none;
+  }
+
+  #safety-para p,
+  #improve-safety-head p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  #improve-screen {
+    margin-top: 50px;
+  }
+
+  .purpose-head h2 {
+    font-size: 38px;
+  }
+
+  .improve-a {
+    width: 45% !important;
+  }
+
+  #improve-safety-purpose {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+  }
+
+  #improve-form {
+    padding-bottom: 50px;
+  }
+
+  #improve-form .fleet-para p,
+  #fraud-para ul li,
+  #fraud-para p,
+  .accident-popup-bottom p,
+  .accident-popup-bottom ul li {
+    font-size: 16px;
+  }
+
+  .roi-right-calculator span {
+    font-size: 12px;
+  }
+
+  #fraud-about {
+    margin-top: 60px;
+  }
+
+  #calc-btn {
+    padding-bottom: 60px;
+  }
+
+  #Safe-btn .fuel-fleet-green,
+  #Safe-btn .fuel-fleet-blue {
+    font-size: 12px;
+  }
+
+  .accident-popup-bottom p {
+    margin-bottom: 20px;
+  }
+
+  #emergency-about {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+
+  .em-img img {
+    margin-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .winter-about {
+    margin-bottom: 50px !important;
+  }
+
+  #fuel-border {
+    padding-bottom: 50px;
+  }
+
+  .cost-border {
+    padding-top: 50px;
+    margin-top: 50px;
+  }
+
+  .cost-border .fleet-para ul li {
+    font-size: 16px;
+  }
+
+  .mbl-dropdown a {
+    display: flex;
+    gap: 10px;
+  }
+
+  .mbl-dropdown a img {
+    display: block;
+  }
+
+  .dropdown-menu li a {
+    font-size: 16px !important;
+  }
+
+  .dropdown-menu {
+    position: relative;
+  }
+
+  .sub-menu {
+    position: relative;
+  }
+
+  .hov-event h6 {
+    font-size: 16px;
+  }
+
+  /*   .dropdown-menu{
+    display: none !important;
+  } */
+  section#clock-app .right-content::after {
+    display: none;
+  }
+
+  section#clock-app .right-content {
+    margin-top: 130px;
+  }
+
+  section#install-banner .right-content {
+    margin-top: 150px;
+  }
+
+  .mbl-dropdown a {
+    gap: 10px;
+  }
+
+  .sol-box-3 img {
+    height: 45%;
+  }
+
+  /* 	.sol-box-4 img {
+    height: 54%;
+} */
+  .capabilitites-section p {
+    width: 75%;
+  }
+
+  .blog-slider.slick-initialized .slick-slide {
+    margin-right: 36px;
+    display: flex;
+  }
+
+  .left-content-sol {
+    margin-top: 165px;
+  }
+
+  .about-fleet p {
+    font-size: 16px;
+  }
+
+  .fleet-para a {
+    font-size: 12px;
+  }
+
+  .success-left p {
+    font-size: 16px;
+  }
+
+  .successor {
+    padding: 0 15px;
+    width: auto;
+  }
+
+  .success-slider-box p {
+    font-size: 20px;
+  }
+
+  .goose-video-area p {
+    font-size: 16px;
+  }
+
+  .electronicLoggingDevice .left-content-sol {
+    margin-top: 130px !important;
+  }
+
+  .partner-section h2 {
+    font-size: 38px;
+  }
+
+  .fleet-para p>a {
+    font-size: 16px;
+  }
+
+  #mbl-border {
+    margin-bottom: 50px;
+  }
+
+  .cap-box h6 {
+    font-size: 18px;
+  }
+
+  section#resources-fleets .single-fleet-box {
+    width: 47.5%;
+  }
+
+  #support-press #fleet-list-para ul li a {
+    font-size: 16px;
+  }
+
+  .accident-b {
+    width: 60% !important;
+  }
+
+  section#roi-width .left-content-sol {
+    margin-top: 140px;
+  }
+
+  .part-ban .left-content-sol {
+    margin-top: 165px !important;
+  }
+
+  div#improve-safety-purpose .improve-a {
+    width: 50% !important;
+  }
+
+  .blog-slider {
+    margin-left: 30px;
+  }
+
+  .page-id-40440 #productivity .left-content-sol,
+  .page-id-40453 #productivity .left-content-sol,
+  .page-id-40551 #benefits .left-content-sol {
+    margin-top: 275px !important;
+  }
+
+  .page-id-40582 #routing-dispatching .left-content-sol {
+    margin-top: 160px;
+  }
+
+  .page-id-41002 .electronicLoggingDevice .left-content-sol {
+    margin-top: 200px !important;
+  }
+
+  .get-started #navbar.active,
+  .get-started #navbar {
+    background-color: #003267;
+  }
+
+  .get-started #navbar {
+    max-width: 75%;
+  }
+
+  .get-started #navbar ul {
+    align-items: flex-start;
+  }
+
+  .get-started #navbar {
+    align-items: flex-start;
+    padding: 0 0px;
+  }
+
+  .menu-header-menu-container {
+    width: 100%;
+  }
+
+  #navbar ul li a {
+    color: #fff;
+    font-size: 18px;
+    justify-content: space-between;
+    padding: 0px 20px;
+    position: relative;
+    height: 44px;
+    align-items: center;
+  }
+
+  #navbar ul li {
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    padding: 0;
+  }
+
+  .get-started #navbar ul {
+    gap: 0;
+  }
+
+  #navbar ul li:first-child {
+    padding-top: 0px;
+  }
+
+  .mbl-dropdown a img {
+    filter: invert(1);
+    width: 20px;
+  }
+
+  #navbar .sub-menu {
+    background-color: transparent;
+  }
+
+  #navbar ul.sub-menu li a {
+    color: #fff !important;
+  }
+
+  .get-started #navbar .sub-menu {
+    padding-top: 0px !important;
+    display: none;
+  }
+
+  #navbar ul.sub-menu li:last-child {
+    border-bottom: 0px;
+  }
+
+  #navbar .sub-menu li a {
+    padding: 10px 40px;
+  }
+
+  #navbar ul li:last-child {
+    border-bottom: 0px;
+  }
+
+  .dropdown-container {
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 44px;
+    border-left: 1px solid;
+    z-index: 9;
+  }
+
+  .li-none {
+    width: 100%;
+  }
+
+  .li-none ul {
+    width: 100%;
+  }
+
+  .get-started #navbar .sub-menu {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .sub-menu li:hover {
+    background-color: transparent;
+  }
+
+  .li-none ul .btn-none {
+    width: 100%;
+    margin: 20px auto;
+    max-width: 150px;
+  }
+
+  .dropdown-container img {
+    transition: .4s ease-in-out;
+    transform: rotateX(0deg);
+  }
+
+  .dropdown-container.active img {
+    transform: rotateX(180deg);
+  }
+
+  #navbar ul li:hover>a,
+  #navbar ul li.current-menu-item>a {
+    color: #53a42a !important;
+  }
+
+
+
+  #navbar ul li.current-menu-item a .dropdown-container img {
+    filter: invert(47%) sepia(84%) saturate(406%) hue-rotate(56deg) brightness(97%) contrast(89%);
+  }
+
+  .page-id-43197 #new-safety-purposes .partner-content h3 {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .page-id-43378 .single-dash-flex {
+    margin-top: 10px;
+  }
+
+  .blog-upper-right {
+    width: 66%;
+    margin-top: 30px;
+  }
+
+  .page-id-40120 .blog-upper-left {
+    width: 30%;
+  }
+
+  .blog-upper-left img {
+    height: 270px;
+  }
+
+  .page-id-40134 .blog-upper-left {
+    width: 32%;
+  }
+
+  .blog-upper-right h2 {
+    font-size: 32px;
+  }
+
+  .blog-upper-left {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1219px) {
+  .banner-content::after {
+    bottom: -230px;
+  }
+
+  /* .gallery-left img:nth-child(1) {
+    width: 32%;
+  }
+
+  .gallery-left img:nth-child(2) {
+    width: 65% !important;
+  }
+  .gallery-left img:nth-child(3),
+  .gallery-left img:nth-child(4),
+  .gallery-left img:nth-child(5) {
+    width: 31.5%;
+  } */
+}
+
+@media screen and (max-width: 1190px) {
+  .banner-content::after {
+    bottom: -250px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .banner-content::after {
+    bottom: -270px;
+  }
+
+  /* .event-gallery img:nth-child(1) {
+    width: 15%;
+  }
+
+  .event-gallery img:nth-child(2) {
+    width: 55%;
+  }
+
+  .event-gallery img:nth-child(3) {
+    width: 23%;
+  }
+
+  .gallery-left img:nth-child(1) {
+    width: 32%;
+  }
+
+  .gallery-left img:nth-child(2) {
+    width: 65%;
+  }
+  .gallery-left img:nth-child(3),
+  .gallery-left img:nth-child(4),
+  .gallery-left img:nth-child(5) {
+    width: 31.5%;
+  } */
+
+  .event-gallery {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .banner-content::after {
+    bottom: -300px;
+  }
+}
+
+@media screen and (max-width: 1079px) {
+  .banner-content::after {
+    bottom: -325px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .banner-content::after {
+    bottom: -345px;
+  }
+
+  .page-id-40440 div#improve-screen img,
+  .page-template-goose-time-clock-app .short-imgs img {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .msg-box {
+    right: 40px;
+    /* bottom: 185px; */
+  }
+
+  .all-comments {
+    width: 67%;
+  }
+
+  .test-tab-area {
+    margin-left: unset;
+    width: unset;
+  }
+
+  .logo-links {
+    gap: 90px;
+  }
+
+  /* 	.hero{
+		padding-bottom: 40px;
+	} */
+  .accident-b {
+    width: 60% !important;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .test-tab-area {
+    gap: 22px;
+  }
+
+  .single-fleet-box {
+    width: 48.5%;
+  }
+
+  #fraud-about {
+    margin-top: 40px;
+  }
+
+  .sol-box-3 img {
+    height: 45%;
+  }
+
+  #Safe-btn .fuel-fleet-green {
+    width: inherit;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .page-id-46547 #tour-fleets .fleet-boxes .single-fleet-box {
+    width: 48%;
+  }
+
+  .page-id-40476 .fleet-para {
+    width: 100%;
+  }
+
+  .page-id-43270 .fleet-para {
+    width: 100%;
+  }
+
+  .page-id-40426 .about-fleet h3 {
+    width: 100%;
+  }
+
+  .banner-section {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .desktop-ban-img {
+    display: none;
+  }
+
+  .mbl-ban-img {
+    display: block;
+  }
+
+  .banner-content::after,
+  .choices-section::after {
+    content: none;
+    /* Prevents pseudo-element creation entirely */
+  }
+
+  .banner-content {
+    flex-direction: column;
+  }
+
+  .banner-content .container {
+    width: unset;
+  }
+
+  .right-content {
+    margin-top: unset;
+  }
+
+  .right-content img {
+    height: 530px;
+    margin: 0 auto;
+  }
+
+  .left-content {
+    margin-top: 180px;
+    width: 100%;
+  }
+
+  .sol-box-1,
+  .sol-box-4,
+  .sol-box-2,
+  .sol-box-3 {
+    width: 100%;
+  }
+
+  .solution-portion-1,
+  .solution-portion-2 {
+    flex-direction: column;
+  }
+
+  .sol-box-3 img {
+    margin: 0 auto;
+  }
+
+  .choice-content {
+    flex-direction: column;
+  }
+
+  .top-choice {
+    width: 100%;
+  }
+
+  .choice-boxes {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 6%;
+    margin-top: 40px;
+  }
+
+  .first-2-box {
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .first-2-box:nth-child(1) {
+    margin-left: unset;
+  }
+
+  .choice-box {
+    width: 45%;
+  }
+
+  .last-2-box {
+    justify-content: unset;
+    margin-top: unset;
+    width: unset;
+    gap: 50px;
+  }
+
+  .choice-box p {
+    font-size: 16px;
+  }
+
+  .choice-box h2 {
+    font-size: 32px;
+  }
+
+  .capabilitites-section {
+    padding: 50px 0;
+  }
+
+  .capabilitites-section p {
+    width: 100%;
+  }
+
+  .top-choice h2,
+  .top-choice p {
+    text-align: center;
+  }
+
+  .top-choice a {
+    margin: 30px auto 0 auto;
+  }
+
+  .test-tab-area {
+    flex-direction: column;
+  }
+
+  .all-users {
+    flex-direction: row;
+  }
+
+  .achievements {
+    padding: 0;
+  }
+
+  .comment-box,
+  .all-comments {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .user img {
+    width: 25%;
+  }
+
+  .all-comments .cap-slide-arrows {
+    justify-content: center;
+    margin-left: unset;
+  }
+
+  .user p {
+    font-size: 12px;
+  }
+
+  .capabilities-container {
+    padding-left: 40px;
+  }
+
+  .system input {
+    width: 220px;
+  }
+
+  .partner-head {
+    width: 100%;
+  }
+
+  .partner-box img {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .cap-slide-arrows {
+    margin-right: unset;
+  }
+
+
+
+  .newsletter-content {
+    flex-direction: column;
+  }
+
+  .subscribe {
+    width: 100%;
+    text-align: center;
+  }
+
+  .news-input {
+    margin-top: 40px;
+  }
+
+  .logo-links {
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links {
+    width: 100%;
+  }
+
+  .solution .all-comments .cap-slide-arrows {
+    justify-content: center;
+    margin-left: unset;
+  }
+
+  .banner-content-sol {
+    flex-direction: column;
+  }
+
+  .hero {
+    padding-bottom: 30px;
+    height: auto;
+  }
+
+  .solution .right-content::after,
+  #productivity .right-content::after {
+    display: none;
+  }
+
+  .solution .right-content {
+    margin-top: unset;
+  }
+
+  .solution .banner-content-sol .container {
+    width: unset;
+  }
+
+  .solution .left-content-sol {
+    margin-top: 180px;
+    width: 100%;
+  }
+
+  .gps-head {
+    flex-direction: column;
+  }
+
+  .gps-para,
+  .gps-head h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .gps-para {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gps-section {
+    margin-top: 40px;
+  }
+
+  .solution .testimonial-section {
+    margin-top: 40px;
+  }
+
+  .gps-fleet-management .banner-content-sol .container {
+    width: 100%;
+  }
+
+  .gps-fleet-management .right-content {
+    margin-top: unset;
+  }
+
+  .gps-fleet-management .hero {
+    padding-bottom: unset;
+  }
+
+  .about-fleet {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-fleet h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .fleet-para {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .fleet-para a {
+    margin: 40px auto auto auto;
+  }
+
+  .single-fleet-box {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .single-fleet-box h3 {
+    width: 100%;
+  }
+
+  .gps-fleet-management .left-content-sol h1 {
+    width: 100%;
+  }
+
+  .fleets-section,
+  .gps-fleet-management .partner-section,
+  .success-story-section,
+  .compare-table-section,
+  .faq-section {
+    margin-top: 40px;
+  }
+
+  .success-content-area {
+    flex-direction: column;
+    padding-top: 40px;
+  }
+
+  .success-content-area .success-left,
+  .success-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .success-left a {
+    margin: 24px auto auto auto;
+  }
+
+  .gps-fleet-management .success-left .cap-slide-arrows {
+    justify-content: center;
+  }
+
+  .all-successors {
+    justify-content: center;
+  }
+
+  .compare-table-area {
+    flex-direction: column;
+  }
+
+  .driver-safety-scoreCard .right-content {
+    margin-top: 30px;
+  }
+
+  .purpose h3 {
+    font-size: 26px;
+  }
+
+  .all-purposes {
+    padding-bottom: 50px;
+  }
+
+  .driver-speed-alert .about-fleet h3,
+  #fuel-cards .about-fleet h3 {
+    width: 100%;
+  }
+
+  .driver-speed-alert .fleet-para,
+  #fuel-cards .fleet-para {
+    width: 100%;
+  }
+
+  .driver-speed-alert .safety-purposes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .driver-speed-alert .purpose {
+    width: 100%;
+  }
+
+  .screen {
+    margin-top: 40px;
+  }
+
+  #geo-fence .all-purposes,
+  #fuel-cards .all-purposes {
+    margin-top: 40px;
+  }
+
+  #geo-fence .right-content {
+    margin-top: 30px;
+  }
+
+  #geo-fence-tour .tour-p {
+    width: 90%;
+  }
+
+  #geo-fence .purpose-head h2,
+  #fuel-cards .purpose-head h2,
+  .supported-fuel-section h2 {
+    font-size: 34px;
+  }
+
+  #fuel-cards .all-purposes {
+    margin-bottom: 40px;
+  }
+
+  .fuel-btns {
+    padding-bottom: 50px;
+  }
+
+  #geo-fence-tour {
+    margin-top: 50px;
+  }
+
+  .reduce-excessive-idling .all-purposes {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .reduce-excessive-idling .safety-purposes {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .reduce-excessive-idling .purpose {
+    width: 100%;
+  }
+
+  .reduce-excessive-idling .purpose h3 {
+    min-height: unset;
+    margin-bottom: 20px;
+  }
+
+  .improve-fleet-health .about-fleet h3 {
+    width: 100%;
+  }
+
+  .improve-fleet-health .fleet-para {
+    width: 100%;
+  }
+
+  .improve-fleet-health .fleet-para .per-day {
+    margin-top: 0;
+  }
+
+  .improve-fleet-health .fleet-para p {
+    gap: 15px;
+  }
+
+  #dash-camera .right-content {
+    margin-top: 50px;
+  }
+
+  #dash-purposes {
+    margin-top: 50px;
+  }
+
+  #dash-purposes .safety-purposes {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #dash-purposes .purpose {
+    width: 100%;
+  }
+
+  #dash-camera .box-area {
+    margin-bottom: -40px;
+  }
+
+  #dash-faq {
+    margin-top: 50px;
+  }
+
+  #dash-camera .banner-content-sol .container {
+    width: 100%;
+  }
+
+  #dash-camera .left-content-sol {
+    width: unset;
+  }
+
+  #routing-dispatching .right-content {
+    margin-top: 30px;
+  }
+
+  .goose-section::after {
+    display: none;
+  }
+
+  #routing-dispatching .banner-content-sol .container {
+    width: 100%;
+  }
+
+  .goose-content {
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+
+  .duck h3,
+  .goose-video-area {
+    width: 100%;
+    text-align: center;
+  }
+
+  .duck h3 {
+    font-size: 48px;
+  }
+
+  .duck img {
+    position: unset;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .goose-a {
+    margin: 40px auto auto auto;
+  }
+
+  .goose-section {
+    padding-top: 40px;
+  }
+
+  .goose-fleet .safety-purposes {
+    flex-direction: column;
+  }
+
+  .goose-fleet .safety-purposes .purpose {
+    width: 100%;
+  }
+
+  .goose-fleet .all-purposes,
+  .goose-fleet .border,
+  .goose-mobiles {
+    padding-bottom: 40px;
+  }
+
+  .goose-dispatch-software-view {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+  }
+
+  .vehicle-Inspection .about-fleet h3,
+  .vehicle-Inspection .fleet-para {
+    width: 100%;
+  }
+
+  .goosetime {
+    margin-top: 40px;
+  }
+
+  .install-guides .single-fleet-box,
+  #dash-camera-options .single-fleet-box {
+    width: 48%;
+  }
+
+  .install-guides .about-fleet h3,
+  .install-guides .fleet-para,
+  #plug .fleet-para,
+  #plug .about-fleet h3,
+  #dash-camera-options .about-fleet h3,
+  #dash-camera-options .fleet-para {
+    width: 100%;
+  }
+
+  .genX .single-fleet-box {
+    width: 47% !important;
+  }
+
+  #guide,
+  .all-ul {
+    width: 100% !important;
+    text-align: start;
+  }
+
+  .all-leds {
+    flex-direction: column;
+  }
+
+  .led ol li {
+    width: 100%;
+    margin-left: 15px;
+  }
+
+  .achievements-section,
+  .partner-section,
+  .solution-section,
+  .choices-section,
+  .capabilitites-section,
+  .tour-section,
+  .testimonial-section,
+  .blog-section {
+    margin-top: 40px;
+  }
+
+  #integration-partner .partner-head h2,
+  .integration-head h2,
+  #integration-fleet .all-purposes h2 {
+    font-size: 36px;
+  }
+
+  #integration-partner p {
+    width: 100%;
+  }
+
+  .plan-box {
+    width: 100%;
+  }
+
+  #benefits-btns {
+    display: block;
+  }
+
+  #benefits-btns .fuel-fleet-blue {
+    width: 249px;
+    margin-top: 20px;
+  }
+
+  #benefits .banner-content-sol .container {
+    width: 100%;
+  }
+
+  .tour-box p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #productivity .banner-content-sol .container {
+    width: unset;
+  }
+
+
+  #dash-camera-options .single-fleet-box:last-child,
+  #integration-fleet .single-fleet-box:last-child,
+  #mbl-border .single-fleet-box:last-child,
+  #construction-fleets .single-fleet-box:last-child,
+  #research-boxes .single-fleet-box:last-child,
+  #presenters-boxes .single-fleet-box:last-child {
+    margin-bottom: 60px;
+  }
+
+  #service-btns {
+    margin-top: inherit;
+    position: relative;
+    z-index: 1;
+  }
+
+  #service-overview .single-fleet-box p {
+    font-size: 14px;
+  }
+
+  .key-head h2,
+  #govt-key h2 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  #other-services .banner-content-sol .container {
+    width: 100%;
+  }
+
+  #resources-fleets .single-fleet-box {
+    width: 47.5%;
+  }
+
+  .detail-banner h2 {
+    width: 100%;
+    font-size: 36px;
+  }
+
+  .detail-content {
+    flex-direction: column;
+  }
+
+  .press-user {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .press-left-top {
+    width: 50%;
+  }
+
+  .press-user-details {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  /*   .router h6 {
+    width: 80%;
+  } */
+
+  .detail-content {
+    padding-bottom: 50px;
+  }
+
+  #QA-area .answer p {
+    font-size: 16px;
+  }
+
+  #QA-area .Question p {
+    font-size: 20px;
+    text-align: start;
+  }
+
+  #contact-form-area {
+    margin-top: 40px;
+  }
+
+  #contact-form-area .fleet-para p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  #contact-form-area .fleet-para span,
+  #contact-boxes .single-fleet-box p {
+    font-size: 16px;
+  }
+
+  #installation-fleet .single-fleet-box,
+  #user-guide-fleet .single-fleet-box {
+    width: 48%;
+  }
+
+  #warranty-fleet .single-fleet-box {
+    width: 100%;
+  }
+
+  #support-form-area {
+    margin-top: 50px;
+  }
+
+  #support-press .about-fleet h3,
+  #support-press .fleet-para {
+    width: 100%;
+  }
+
+  #support-press .fleet-para p {
+    font-size: 16px;
+  }
+
+  .list-para ul li {
+    text-align: start;
+  }
+
+  #footer {
+    margin-top: 50px;
+  }
+
+  .error-inner {
+    margin-top: 30px;
+  }
+
+  .contact-form-area-2 {
+    margin-top: 40px !important;
+  }
+
+  .presenter-head {
+    margin-top: 40px;
+  }
+
+  #fieldlogix-overview .about-fleet h3,
+  #fieldlogix-overview .fleet-para {
+    width: 100%;
+  }
+
+  #Overview-btns {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  #Overview-btns .fuel-fleet-green,
+  #Overview-btns .fuel-fleet-blue {
+    margin-top: unset;
+  }
+
+  #benefit-fleet .box-area {
+    margin-bottom: -43px;
+  }
+
+  #partner-border-form {
+    padding-bottom: 30px;
+  }
+
+  #partner-detail-boxes .single-fleet-box {
+    width: 100%;
+  }
+
+  .partner-safety-purposes {
+    flex-direction: column;
+  }
+
+  .partner-content {
+    width: 100%;
+    /* 	  text-align: center; */
+  }
+
+  /* 	.partner-content ul{
+		align-items: center;
+	} */
+
+  .customer-support-section::after {
+    display: none;
+  }
+
+  .customer-boxes .cus-box:nth-child(1),
+  .customer-boxes .cus-box:nth-child(2) {
+    float: none;
+    margin: unset;
+  }
+
+  .other-cus-box {
+    justify-content: space-around;
+    gap: 0;
+    margin-top: 40px;
+  }
+
+  .customer-boxes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .cus-box {
+    width: 50%;
+  }
+
+  .customer-top {
+    text-align: center;
+  }
+
+  #achievement-border {
+    padding-top: 30px;
+  }
+
+  #awards,
+  .cus-border,
+  .customer-support-section {
+    padding-bottom: 30px;
+  }
+
+  .customer-support-section {
+    margin-top: 30px;
+  }
+
+  .fleet-repeat-section .border {
+    margin-bottom: 30px;
+  }
+
+  #carrer-purposes {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .accomplishment-after::after {
+    display: none;
+  }
+
+  .acm-inner {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .acm-inner p:nth-child(1) {
+    float: none;
+    margin: unset;
+    padding: unset;
+  }
+
+  .acm-inner p:nth-child(2) {
+    margin: unset;
+    padding: unset;
+  }
+
+  .acm-inner p:nth-child(even) {
+    color: #53a42a;
+  }
+
+  .acm-inner p {
+    width: 50%;
+  }
+
+  .accomplishment-after a {
+    margin-top: 50px;
+  }
+
+  .gallery-left img:nth-child(3),
+  .gallery-left img:nth-child(4),
+  .gallery-left img:nth-child(5) {
+    width: 30%;
+  }
+
+  .event-head {
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+
+  .event-head h2 {
+    margin-bottom: 20px;
+  }
+
+  .gallery-left img:nth-child(2) {
+    width: 63%;
+  }
+
+  .purpose-head h2,
+  .accomplishment-head h2,
+  .event-head h2 {
+    font-size: 34px;
+  }
+
+  .qualified-question {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .question-area,
+  .question-img-area {
+    width: 100%;
+  }
+
+  .question-img-area img {
+    width: 100%;
+  }
+
+  .qualified-question {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  #referal-fleet .about-fleet .fleet-para span {
+    margin-bottom: 10px;
+  }
+
+  #previous-step,
+  #submit-step {
+    width: 30%;
+  }
+
+  #checklist .about-fleet h3,
+  #checklist .fleet-para {
+    width: 100%;
+  }
+
+  .accident-a {
+    width: 80%;
+  }
+
+  /*   #dtc-para img {
+    width: 100%;
+  } */
+
+  .dtc-head {
+    margin-top: 30px;
+  }
+
+  .dtc-head h2,
+  #dtc-box .tour-box h2 {
+    font-size: 36px;
+  }
+
+  #event-tabbing {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+  }
+
+  #roi-calculator .about-fleet h3,
+  #roi-calculator .fleet-para {
+    width: 100%;
+  }
+
+  .step-li p {
+    text-align: start;
+  }
+
+  #about-fieldlogix .about-fleet h3 {
+    width: 100%;
+  }
+
+  #view {
+    margin-top: -10px;
+  }
+
+  .idustry {
+    flex-direction: column;
+  }
+
+  .industry-left p {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .industry-right,
+  .industry-left {
+    width: 100%;
+    text-align: center;
+  }
+
+  #about-fieldlogix {
+    padding-bottom: 0 !important;
+  }
+
+  .pagination-boxes .blog-box {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .all-blogs .blog-box {
+    width: 47%;
+  }
+
+  .blog-upper-box {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .blog-upper-left,
+  .blog-upper-right {
+    width: 100%;
+  }
+
+  .blog-border {
+    padding-bottom: 30px;
+  }
+
+  .compare-table {
+    width: 100%;
+  }
+
+  .gps-fleet-management .border {
+    padding-bottom: 50px;
+  }
+
+  #Safe-btn {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .improve-a {
+    width: 65% !important;
+  }
+
+  #improve-form .fleet-para {
+    width: 100%;
+  }
+
+  .improve-form-left p {
+    display: none;
+  }
+
+  .roi-popup-content {
+    flex-direction: column;
+  }
+
+  .roi-popup-content .roi-popup-left,
+  .roi-popup-content .roi-popup-right {
+    width: 100%;
+  }
+
+  .popup-tour .tour-box {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  #winter-fleet .about-fleet h3,
+  #winter-fleet .fleet-para {
+    width: 100%;
+  }
+
+  #fuel-screen {
+    width: 100%;
+  }
+
+  #fuel-border {
+    padding-bottom: 30px;
+  }
+
+  .cost-border {
+    padding-top: 30px;
+    margin-top: 30px;
+  }
+
+  .gallery-left .hov-event:nth-child(3),
+  .gallery-left .hov-event:nth-child(4),
+  .gallery-left .hov-event:nth-child(5) {
+    width: 31.5%;
+  }
+
+  .gallery-left .hov-event:nth-child(2) {
+    width: 63.5%;
+  }
+
+  .vehicle-Inspection .banner-content-sol .container {
+    width: 100% !important;
+  }
+
+  section#clock-app .banner-content-sol .container {
+    width: 100%;
+  }
+
+  section#clock-app .right-content {
+    margin-top: 0;
+  }
+
+  section#install-banner .right-content {
+    margin-top: 0;
+  }
+
+  .hero {
+    padding-bottom: unset;
+  }
+
+  section#plan-hero .banner-content-sol .container {
+    width: 100%;
+  }
+
+  section#plan-hero .left-content-sol {
+    width: unset !important;
+  }
+
+  #benefits .banner-content-sol .container {
+    width: 100%;
+  }
+
+  #benefits .left-content-sol {
+    width: unset;
+  }
+
+  section#productivity .banner-content-sol .container {
+    width: 100%;
+  }
+
+  .sol-box-4,
+  .sol-box-3 {
+    padding-bottom: unset;
+    height: max-content;
+  }
+
+  .eta-banner .banner-content-sol .container {
+    width: 100% !important;
+  }
+
+  section#new-imp .banner-content-sol .container {
+    width: 100%;
+  }
+
+  .blog-slider {
+    margin-left: 20px;
+  }
+
+  .single-fleet-box p {
+    font-size: 14px;
+  }
+
+  .left-content-sol {
+    margin-top: 150px !important;
+  }
+
+  section#red-banner .banner-content-sol .container {
+    width: 100%;
+  }
+
+  .vehicle-Inspection .left-content-sol {
+    width: unset;
+  }
+
+  .real-ban .left-content-sol {
+    margin-bottom: 40px;
+    width: unset;
+  }
+
+  .dev .left-content-sol {
+    width: unset !important;
+  }
+
+  .dev .banner-content-sol .container {
+    width: 100% !important;
+  }
+
+  section#install-banner .banner-content-sol .container {
+    width: 100%;
+  }
+
+  .integrations .banner-content-sol .container {
+    width: 100% !important;
+  }
+
+  .integrations .left-content-sol {
+    margin-bottom: 40px;
+  }
+
+  section#plan-hero .banner-content-sol .container {
+    width: 100% !important;
+  }
+
+  .plan-head h4 {
+    font-size: 20px;
+  }
+
+  .vis-aft .left-content-sol,
+  .sust-hero .left-content-sol,
+  .prevent .left-content-sol,
+  .guide-new .left-content-sol,
+  section#new-width .left-content-sol,
+  #roi-width .left-content-sol,
+  .part-ban .left-content-sol {
+    width: unset;
+  }
+
+  .sust-hero .banner-content-sol .container,
+  .prevent .banner-content-sol .container {
+    width: 100% !important;
+  }
+
+  .sust-hero .left-content-sol,
+  .guide-new .left-content-sol {
+    margin-bottom: 20px;
+  }
+
+  .guide-new .banner-content-sol .container {
+    width: 100% !important;
+  }
+
+  .purpose-head p {
+    width: 100%;
+  }
+
+  #fleet-span a {
+    margin: 0 auto;
+  }
+
+  .accident-b {
+    width: 80% !important;
+  }
+
+  section#new-width .banner-content-sol .container {
+    width: 100%;
+  }
+
+  section#roi-width .banner-content-sol .container {
+    width: 100%;
+  }
+
+  section#productivity .right-content {
+    margin-top: 20px;
+  }
+
+  #emergency-boxes .single-fleet-box a {
+    display: block;
+  }
+
+  .part-ban .banner-content-sol .container {
+    width: 100% !important;
+  }
+
+  div#improve-safety-purpose .improve-a {
+    width: 70% !important;
+  }
+
+  .page-id-40440 #productivity .banner-content-sol .container,
+  .page-id-40453 #productivity .banner-content-sol .container,
+  .page-id-40551 #benefits .banner-content-sol .container {
+    width: 100%;
+  }
+
+  .page-id-40440 #productivity .left-content-sol,
+  .page-id-40453 #productivity .left-content-sol,
+  .page-id-40551 #benefits .left-content-sol {
+    margin-top: 225px !important;
+  }
+
+  .page-id-40440 #productivity .right-content,
+  .page-id-40453 #productivity .right-content,
+  .page-id-40551 #benefits .right-content {
+    margin-top: unset !important;
+  }
+
+  .page-id-40556 #benefits .banner-content-sol .container {
+    width: 100%;
+  }
+
+  .page-id-40556 #benefits .right-content {
+    margin-top: 20px;
+  }
+
+  .sol-box-3 img {
+    position: unset;
+  }
+
+  .page-id-883 #benefits .banner-content-sol .container {
+    width: 100%;
+  }
+
+  .page-id-40562 #benefits .banner-content-sol .container {
+    width: 100%;
+  }
+
+  .page-id-40562 #benefits .left-content-sol {
+    width: unset;
+    margin-bottom: 20px;
+  }
+
+  .page-id-40631 #benefits .banner-content-sol .container,
+  .page-id-40582 #routing-dispatching .banner-content-sol .container,
+  .page-id-40120 #other-services .banner-content-sol .container,
+  .page-id-40134 #other-services .banner-content-sol .container,
+  .page-id-40134 #other-services .banner-content-sol .container,
+  .page-id-887 #benefits .banner-content-sol .container,
+  .page-id-910 #benefits .banner-content-sol .container,
+  .page-id-41002 #dash-camera .banner-content-sol .container,
+  .page-id-1001 #partner-detail-hero .banner-content-sol .container,
+  .page-id-880 #other-services .banner-content-sol .container,
+  .page-id-945 #routing-dispatching .banner-content-sol .container,
+  .page-id-40250 #other-services .banner-content-sol .container,
+  .page-id-40614 #routing-dispatching .banner-content-sol .container,
+  .page-id-40337 #benefits .banner-content-sol .container,
+  .page-id-983 #partner-detail-hero .banner-content-sol .container,
+  .page-id-1026 #routing-dispatching .banner-content-sol .container,
+  .page-id-832 .sust-hero .banner-content-sol .container,
+  .page-id-40466 #benefits .banner-content-sol .container,
+  .page-id-41252 #benefits .banner-content-sol .container,
+  .page-id-40426 #productivity .banner-content-sol .container,
+  .page-id-40353 #benefits .banner-content-sol .container,
+  .page-id-43522 #benefits .banner-content-sol .container,
+  .page-id-40397 #partner-detail-hero .banner-content-sol .container,
+  .page-id-40410 #partner-detail-hero .banner-content-sol .container,
+  .page-id-40414 #benefits .banner-content-sol .container,
+  .page-id-40431 #partner-detail-hero .banner-content-sol .container,
+  .page-id-40462 #benefits .banner-content-sol .container,
+  .page-id-40447 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43713 #routing-dispatching .banner-content-sol .container,
+  .page-id-40476 #benefits .banner-content-sol .container,
+  .page-id-40482 #benefits .banner-content-sol .container,
+  .page-id-40497 #partner-detail-hero .banner-content-sol .container,
+  .page-id-40506 #benefits .banner-content-sol .container,
+  .page-id-40509 #benefits .banner-content-sol .container,
+  .page-id-41283 #productivity .banner-content-sol .container,
+  .page-id-40513 #benefits .banner-content-sol .container,
+  .page-id-40524 #benefits .banner-content-sol .container,
+  .page-id-40528 #partner-detail-hero .banner-content-sol .container,
+  .page-id-40533 #benefits .banner-content-sol .container,
+  .page-id-40537 #partner-detail-hero .banner-content-sol .container,
+  .page-id-40541 #partner-detail-hero .banner-content-sol .container,
+  .page-id-40545 #partner-detail-hero .banner-content-sol .container,
+  .page-id-40567 #partner-detail-hero .banner-content-sol .container,
+  .page-id-40573 #partner-detail-hero .banner-content-sol .container,
+  .page-id-40577 #partner-detail-hero .banner-content-sol .container,
+  .page-id-607 .gps-fleet-management .banner-content-sol .container {
+    width: 100% !important;
+  }
+
+  .postid-40246 #dash-camera .banner-content-sol .container {
+    width: 100%;
+  }
+
+  .postid-40246 #dash-camera .left-content-sol {
+    width: unset;
+  }
+
+  .page-id-40472 .right-content img {
+    width: unset;
+  }
+
+  /* 2-May */
+  .page-id-40513 #system-overview .about-fleet .fleet-para h3 {
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .page-id-40513 #system-overview .about-fleet .fleet-para p {
+    padding-left: 0px;
+  }
+
+  .page-id-40524 #checklist .fleet-para p {
+    padding-left: 0px;
+  }
+
+  .page-id-40524 strong {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .page-id-40551 .fleet-para {
+    width: 100%;
+  }
+
+  .page-id-43177 .fleet-para {
+    width: 100%;
+  }
+
+  .page-id-43275 .fleet-para {
+    width: 100%;
+  }
+
+  .page-id-43357 .fleet-para,
+  .page-id-43367 .fleet-para,
+  .page-id-41252 .fleet-para,
+  .page-id-40397 .fleet-para,
+  .page-id-40431 .fleet-para,
+  .page-template-custom-card .fleet-para,
+  .page-id-43623 .fleet-para,
+  .page-id-43637 .fleet-para,
+  .page-id-43647 .fleet-para,
+  .page-id-43653 .fleet-para,
+  .page-id-43667 .fleet-para,
+  .page-id-43663 .fleet-para,
+  .page-id-43694 .fleet-para,
+  .page-id-43702 .fleet-para,
+  .page-id-43705 .fleet-para,
+  .page-id-43713 .fleet-para,
+  .page-id-969 .fleet-para,
+  .page-id-40614 .fleet-para,
+  .page-id-42924 .fleet-para,
+  .page-id-40582 .fleet-para,
+  .page-id-43103 .fleet-para,
+  .page-id-43143 .fleet-para,
+  .page-id-43151 .fleet-para,
+  .page-id-43197 .fleet-para,
+  .page-id-43266 .fleet-para {
+    width: 100%;
+  }
+
+  .page-id-40397 #first-fleet .fleet-para a {
+    margin: 0 auto;
+  }
+
+  .page-id-43713 #img-fleet-area {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .page-id-43713 .img-fleet-left,
+  .page-id-43713 .img-fleet-right {
+    width: 100%;
+  }
+
+  .left-single {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .page-id-42924 .improve-form-left,
+  .page-id-42924 .improve-form-left h3,
+  .page-id-42924 #fraud-about h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .page-id-43069 .single-help {
+    width: 50%;
+  }
+
+  .single-dash-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page-id-43266 #fleet-ul-list {
+    margin-top: 0px !important;
+  }
+
+  .page-id-43388 .all-purposes {
+    padding-bottom: 50px;
+    padding-bottom: 30px !important;
+    margin-bottom: unset;
+  }
+
+  .page-id-43623 .compare-table-area #ntb_table tr td:nth-child(1) span,
+  .page-id-43647 .compare-table-area #ntb_table tr td:nth-child(1) span {
+    text-align: center !important;
+  }
+
+  .page-id-43637 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43623 .gps-fleet-management .banner-content-sol .container,
+  .page-id-43644 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43647 .gps-fleet-management .banner-content-sol .container,
+  .page-id-43653 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43667 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43678 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43696 #new-imp .banner-content-sol .container,
+  .page-id-43708 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43705 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43702 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43694 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43692 #new-imp .banner-content-sol .container,
+  .page-id-43689 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43687 #new-imp .banner-content-sol .container,
+  .page-id-43679 #new-imp .banner-content-sol .container,
+  .page-id-43671 #new-imp .banner-content-sol .container,
+  .page-id-43663 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43659 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43656 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43650 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43737 #routing-dispatching .banner-content-sol .container,
+  .page-id-42931 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43053 #new-imp .banner-content-sol .container,
+  .page-id-43069 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43103 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43106 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43135 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43137 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43143 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43151 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43155 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43160 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43165 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43177 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43179 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43183 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43185 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43460 #benefits .banner-content-sol .container,
+  .page-id-43192 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43195 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43197 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43206 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43209 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43211 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43215 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43219 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43224 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43471 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43227 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43475 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43266 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43270 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43275 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43282 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43287 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43293 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43298 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43314 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43319 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43327 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43334 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43346 #routing-dispatching .banner-content-sol .container,
+  .page-id-43349 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43351 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43354 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43357 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43360 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43362 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43365 #routing-dispatching .banner-content-sol .container,
+  .page-id-43367 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43369 #routing-dispatching .banner-content-sol .container,
+  .page-id-43371 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43374 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43378 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43380 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43395 .gps-fleet-management .banner-content-sol .container,
+  .page-id-43388 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43426 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43429 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43432 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43435 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43438 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43441 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43444 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43446 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43433 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43427 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43419 .gps-fleet-management .banner-content-sol .container,
+  .page-id-43413 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43409 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43391 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43394 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43402 #partner-detail-hero .banner-content-sol .container,
+  .page-id-43407 #partner-detail-hero .banner-content-sol .container,
+  .postid-40230 #dash-camera .banner-content-sol .container,
+  .postid-40228 #dash-camera .banner-content-sol .container,
+  .term-suntech-obdii-harness-selection .guide-new .banner-content-sol .container,
+  .term-dash-camera-installation-options .guide-new .banner-content-sol .container,
+  .term-genx-harness-options .guide-new .banner-content-sol .container,
+  .postid-40234 .right-content,
+  .postid-40234 #dash-camera .banner-content-sol .container,
+  .postid-40232 #dash-camera .banner-content-sol .container,
+  .postid-40238 #dash-camera .banner-content-sol .container,
+  .postid-40244 #dash-camera .banner-content-sol .container,
+  .postid-40242 #dash-camera .banner-content-sol .container,
+  .postid-40240 #dash-camera .banner-content-sol .container,
+  .postid-40236 #dash-camera .banner-content-sol .container,
+  .postid-40246 #dash-camera .banner-content-sol .container,
+  .postid-40226 #dash-camera .banner-content-sol .container,
+  .postid-40232 #dash-camera .banner-content-sol .container,
+  .postid-40232 .right-content,
+  .term-genx-harness-options .guide-new .banner-content-sol .container {
+    width: 100% !important;
+  }
+
+  .term-genx-harness-options .right-content img {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .blog-upper-left img {
+    width: 270px;
+  }
+
+  .blog-upper-left {
+    display: flex;
+    justify-content: center;
+  }
+
+  .page-id-40134 .blog-upper-left {
+    width: unset;
+  }
+
+  .page-id-40120 .blog-upper-left {
+    width: 45%;
+  }
+
+  .page-id-43195 .fleet-para {
+    width: 100%;
+  }
+
+  .term-suntech-obdii-harness-selection .right-content img,
+  .term-dash-camera-installation-options .right-content img {
+    margin: 0 auto;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .term-genx-harness-options .right-content img {
+    margin: 0 auto;
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+    bottom: 43px;
+  }
+
+  .page-id-49687 .banner-content,
+  .page-id-9 .banner-content {
+    grid-template-columns: 100%;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .page-id-40120 .blog-upper-left {
+    width: 100%;
+  }
+
+  .single-dash-flex {
+    gap: 20px;
+  }
+
+  div#dtc-para ul li {
+    font-size: 14px;
+    list-style: none;
+  }
+
+  .single-dash-flex {
+    margin-top: 0px !important;
+  }
+
+  .dash-right {
+    width: 100% !important;
+  }
+
+  .page-id-43143 table.compare-table {
+    overflow-x: auto;
+    border-spacing: 5px 0;
+  }
+
+  .page-id-43125 .plan-head h4 {
+    font-size: 16px;
+  }
+
+  .page-id-43069 .single-help {
+    width: 100%;
+  }
+
+  .page-id-40397 .width-main-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page-id-40331 #dtc-box .tour-box input[type="email"] {
+    width: 100%;
+  }
+
+  .page-id-40331 #dtc-box .tour-box h3 {
+    font-size: 28px;
+  }
+
+  .page-template-emerging-triumphant-in-2021-a-discussion-on-doing-more-with-lesscopy1 .width-main {
+    width: 100%;
+  }
+
+  .page-id-40265 .fuel-fleet-green,
+  .fuel-fleet-blue {
+    width: 182px !important;
+  }
+
+  .get-started p,
+  .get-started a {
+    display: none;
+  }
+
+  .left-content h1 {
+    font-size: 34px;
+  }
+
+  .left-content h1::after {
+    display: none;
+  }
+
+  .banner-buttons {
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .left-content {
+    margin-top: 140px;
+    text-align: center;
+  }
+
+  .right-content img {
+    height: 200px;
+    margin: 20px auto 0 auto;
+  }
+
+  .banner-section {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .achievements-section,
+  .partner-section,
+  .solution-section,
+  .choices-section,
+  .capabilitites-section,
+  .tour-section,
+  .testimonial-section,
+  .blog-section {
+    margin-top: 30px;
+  }
+
+  .achievements {
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+  }
+
+  /*   .achievements img {
+    width: 70px;
+  } */
+
+  .solution-section h2,
+  .top-choice h2,
+  .capabilitites-section h2,
+  .test-head h2,
+  .tour-box h2,
+  .partner-section h2,
+  .blog-head h2 {
+    /* font-size: 30px; */
+    font-size: 26px;
+  }
+
+  .test-head {
+    width: unset;
+    text-align: center;
+  }
+
+  .solution-portion-1 {
+    margin-top: 30px;
+  }
+
+  .sol-box-1 h3,
+  .sol-box-4 h3,
+  .sol-box-2 h3,
+  .sol-box-3 h3 {
+    font-size: 28px;
+  }
+
+  .sol-box-2-content {
+    padding-left: 15px;
+  }
+
+  .sol-box-1 h3 {
+    margin-top: 15px;
+  }
+
+  .sol-1-props {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .sol-1-props img {
+    margin: unset;
+  }
+
+  .sol-box-1 a,
+  .sol-box-4 a {
+    margin-top: 20px;
+  }
+
+  .sol-box-1,
+  .sol-box-4 {
+    padding: 30px 0px 30px 15px;
+  }
+
+  .sol-box-2 {
+    padding: 30px 10px 30px 10px;
+  }
+
+  .sol-box-2 h3 {
+    margin-top: 30px;
+  }
+
+  .sol-box-2-content a,
+  .sol-box-3 .sol-box-2-content a {
+    margin-top: 20px;
+  }
+
+  .sol-box-3 {
+    padding: 20px 10px 0px 5px;
+  }
+
+  .sol-box-3 .sol-1-props {
+    margin-top: 20px;
+  }
+
+  .top-choice p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .choice-boxes {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .choice-box p {
+    font-size: 14px;
+  }
+
+  .choice-boxes {
+    align-items: unset;
+  }
+
+  .capabilitites-section {
+    padding: 30px 0;
+  }
+
+  .capabilitites-section p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .capabilitites-section a {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+
+  .test-head p {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .all-users {
+    flex-direction: column;
+  }
+
+  .user {
+    width: 100%;
+  }
+
+  .user img {
+    width: 20%;
+  }
+
+  .comment-box {
+    padding: 25px 10px 25px 20px;
+  }
+
+  .tour-box {
+    padding: 20px;
+    height: auto;
+  }
+
+  .tour-box p {
+    font-size: 12px;
+  }
+
+  .system {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .system input {
+    width: 100%;
+  }
+
+  .partner-section p {
+    font-size: 14px;
+  }
+
+  .partner-section h2 {
+    margin-bottom: 10px;
+  }
+
+  .partner-head {
+    margin-bottom: 20px;
+  }
+
+  .blog-head {
+    margin-bottom: 30px;
+  }
+
+  .blog-slider {
+    margin-bottom: 30px;
+  }
+
+  #footer {
+    margin-top: 40px;
+    padding: 20px 0;
+  }
+
+  .newsletter-content {
+    padding: 30px 20px 20px 20px;
+  }
+
+  .subscribe p {
+    font-size: 14px;
+  }
+
+  .news-input {
+    width: 100%;
+  }
+
+  .news-input input {
+    width: 100%;
+  }
+
+  .sub-link {
+    width: 90px;
+  }
+
+  .main-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-links {
+    padding: 20px;
+  }
+
+  .social-logos {
+    margin-top: 20px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .copy {
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #navbar ul li a {
+    font-size: 14px;
+  }
+
+  .blog-content ul {
+    margin-top: 20px;
+  }
+
+  .blog-content ul li {
+    font-size: 12px;
+  }
+
+  .blog-content h5 {
+    font-size: 18px;
+    min-height: unset;
+  }
+
+  .blog-content p {
+    margin-top: 10px;
+  }
+
+  .blog-content {
+    min-height: unset;
+  }
+
+  .msg-box {
+    bottom: 50px;
+    right: 30px;
+  }
+
+  .msg-box img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .left-content-sol h1 {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 7px;
+  }
+
+  .left-content-sol p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .solution .start-btn {
+    width: 100%;
+  }
+
+  .gps-section {
+    margin-top: 30px;
+  }
+
+  .gps-head h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .links ul {
+    display: none;
+  }
+
+  .capability-slider-2.slick-initialized .slick-slide {
+    margin-right: unset;
+  }
+
+  .top-header {
+    display: none;
+  }
+
+  .solution .capabilities-container {
+    padding-bottom: 30px;
+  }
+
+  .solution .tour-section {
+    margin-top: 40px;
+  }
+
+  .solution #footer {
+    margin-top: 40px;
+  }
+
+  .gps-fleet-management .left-content-sol {
+    width: unset;
+    margin-top: 140px;
+  }
+
+  .gps-fleet-management .start-btn {
+    margin: 0 auto;
+  }
+
+  .gps-fleet-management .banner-buttons-sol {
+    margin-top: 20px;
+  }
+
+  .about-fleet h3 {
+    font-size: 24px;
+  }
+
+  .fleet-para a {
+    margin: 20px auto auto auto;
+  }
+
+  .fleet-boxes {
+    margin-top: 115px;
+  }
+
+  .fleets-section,
+  .gps-fleet-management .partner-section,
+  .success-story-section,
+  .compare-table-section,
+  .faq-section {
+    margin-top: 30px;
+  }
+
+  .single-fleet-box h3 {
+    margin-top: -70px;
+    font-size: 24px;
+  }
+
+  .see {
+    margin-top: -65px;
+  }
+
+  .gps-fleet-management .border {
+    padding-bottom: 50px;
+  }
+
+  .success-left h2 {
+    font-size: 30px;
+  }
+
+  .success-left p {
+    font-size: 14px;
+  }
+
+  .gps-fleet-management .success-left .cap-slide-arrows {
+    margin-top: 20px;
+  }
+
+  .all-successors {
+    flex-direction: column;
+    justify-content: unset;
+    gap: unset;
+  }
+
+  .successor {
+    width: 100%;
+  }
+
+  .compare-table-section h2,
+  .faq-area h2 {
+    font-size: 30px;
+  }
+
+  .success-content-area {
+    padding-bottom: 30px;
+  }
+
+  .success-slider-box p {
+    font-size: 14px;
+  }
+
+  .Question p {
+    font-size: 14px;
+    text-align: start;
+  }
+
+  .driver-safety-scoreCard .left-content-sol,
+  #geo-fence .left-content-sol {
+    width: 100%;
+  }
+
+  .driver-safety-scoreCard .banner-content-sol .container,
+  #geo-fence .banner-content-sol .container {
+    width: unset;
+  }
+
+  .driver-safety-scoreCard .start-btn {
+    margin: 0 auto;
+  }
+
+  .screen {
+    margin-top: 40px;
+  }
+
+  .safety-purposes {
+    flex-direction: column;
+  }
+
+  .purpose {
+    width: 100%;
+  }
+
+  .purpose h3 {
+    min-height: unset;
+  }
+
+  .all-purposes {
+    padding-bottom: 40px;
+    margin-top: 50px;
+  }
+
+  .links h5 img {
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .rotate-up {
+    transform: rotate(180deg);
+  }
+
+  #geo-fence .right-content {
+    margin-top: 20px;
+  }
+
+  #geo-fence .banner-buttons-sol {
+    justify-content: center;
+  }
+
+  #geo-fence .purpose-head h2,
+  #fuel-cards .purpose-head h2 {
+    font-size: 28px;
+  }
+
+  #geo-fence .purpose-head p,
+  #fuel-cards .purpose-head p {
+    font-size: 14px;
+  }
+
+  #geo-fence-tour .tour-p {
+    width: 100%;
+  }
+
+  .fuel-btns {
+    flex-direction: column;
+  }
+
+  .fuel-fleet-green,
+  .fuel-fleet-blue {
+    width: 250px;
+  }
+
+  .supported-fuel-section h2 {
+    font-size: 28px;
+  }
+
+  .improve-fleet-health .purpose-head h2 {
+    font-size: 30px;
+  }
+
+  #geo-fence-tour .tour-p {
+    font-size: 14px;
+  }
+
+  #dash-camera .banner-buttons-sol {
+    justify-content: center;
+  }
+
+  #dash-camera .purpose-head h2 {
+    font-size: 30px;
+  }
+
+  #dash-camera .purpose-head p {
+    font-size: 14px;
+  }
+
+  #dash-purposes {
+    margin-top: 30px;
+  }
+
+  #dash-camera .right-content {
+    margin-top: 10px;
+  }
+
+  #dash-faq .Question p {
+    font-size: 14px;
+  }
+
+  #routing-dispatching .left-content-sol {
+    width: unset;
+  }
+
+  #routing-dispatching .start-btn {
+    margin: 0 auto;
+  }
+
+  .duck h3,
+  .goose-fleet-head h2,
+  .goose-dispatch-software h2 {
+    font-size: 30px;
+  }
+
+  .fa-solid.fa-play {
+    font-size: 20px;
+  }
+
+  .goose-video-box a span,
+  .case-video-box a span {
+    width: 60px;
+    height: 60px;
+  }
+
+  .goose-dispatch-software-view {
+    margin-top: 20px;
+  }
+
+  #eta-btn .fuel-fleet-blue {
+    width: 182px;
+  }
+
+  .goosetime h2 {
+    font-size: 28px;
+  }
+
+  .goosetime .fuel-btns .fuel-fleet-blue {
+    width: 228px;
+    padding: 12px 16px;
+  }
+
+  .device-tabbing {
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .install-guides .single-fleet-box {
+    width: 100%;
+  }
+
+  #dash-tour {
+    margin-top: 50px;
+  }
+
+  #plug .single-fleet-box,
+  #dash-camera-options .single-fleet-box,
+  .genX .single-fleet-box,
+  #benefit-fleet .single-fleet-box {
+    width: 100% !important;
+  }
+
+  #plug .fleet-boxes .single-fleet-box:last-child,
+  #dash-camera-options .single-fleet-box:last-child,
+  #integration-fleet .single-fleet-box:last-child,
+  #benefit-fleet .single-fleet-box:last-child,
+  #mbl-border .single-fleet-box:last-child,
+  #construction-fleets .single-fleet-box:last-child,
+  #resources-fleets .single-fleet-box:last-child,
+  #support-fleet .single-fleet-box:last-child,
+  #presenters-boxes .single-fleet-box:last-child {
+    margin-bottom: 40px;
+  }
+
+  .guide-img {
+    display: block;
+  }
+
+  .guide-img img {
+    margin-bottom: 32px;
+  }
+
+  .all-ul {
+    flex-direction: column;
+  }
+
+  .integrations .left-content-sol {
+    width: 100% !important;
+    /*     margin-top: 200px !important; */
+  }
+
+  #integration-fleet .all-purposes,
+  #about-fleet-border {
+    padding-bottom: 30px;
+  }
+
+  #integration-partner .partner-head h2,
+  .integration-head h2,
+  #integration-fleet .all-purposes h2 {
+    font-size: 28px;
+  }
+
+  #benefits .start-btn {
+    margin: 0 auto;
+  }
+
+  #benefits .banner-content-sol .container {
+    width: unset;
+  }
+
+  #benefits .left-content-sol {
+    width: 100%;
+  }
+
+  #visibility-achievement {
+    margin-top: 40px;
+  }
+
+  #productivity .start-btn {
+    margin: 0 auto;
+  }
+
+  #service-btns {
+    margin-top: inherit;
+    position: relative;
+    z-index: 1;
+  }
+
+  .key-head h2,
+  #govt-key h2 {
+    font-size: 28px;
+    width: 100%;
+  }
+
+  .key-partner {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  #other-services .left-content-sol {
+    width: 100%;
+  }
+
+  #other-services .banner-content-sol .container {
+    width: 100%;
+  }
+
+  #other-services .start-btn {
+    margin: 0 auto;
+  }
+
+  #resources-fleets .single-fleet-box {
+    width: 100%;
+  }
+
+  .detail-section {
+    padding-top: 140px;
+  }
+
+  .back {
+    font-size: 14px;
+  }
+
+  .detail-banner h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .press-user {
+    flex-direction: column;
+  }
+
+  .press-left-top {
+    width: 100%;
+  }
+
+  .press-share {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+
+  .press-social {
+    margin-top: unset;
+  }
+
+  .detail-content,
+  .press-user-details,
+  .press-about {
+    margin-top: 30px;
+  }
+
+  .press-categories h6 {
+    margin-bottom: 10px;
+  }
+
+  .press-para p,
+  .press-about p,
+  .press-share span,
+  .Source-list li {
+    font-size: 14px;
+  }
+
+  .press-para p {
+    margin-bottom: 20px;
+  }
+
+  .detail-routes {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .detail-content {
+    padding-bottom: 30px;
+  }
+
+  .all-about {
+    padding-bottom: 20px;
+  }
+
+  #case-categories h6:nth-child(3) {
+    margin-top: 20px;
+  }
+
+  #QA-area .answer p,
+  #faq-fleet p,
+  #faq-fleet a {
+    font-size: 14px;
+  }
+
+  #QA-area .Question p {
+    font-size: 16px;
+  }
+
+  .Question p {
+    padding-right: 10px;
+  }
+
+  #contact-form-area .fleet-para p {
+    font-size: 14px;
+  }
+
+  #contact-form-area .fleet-para span,
+  #contact-boxes .single-fleet-box p {
+    font-size: 14px;
+  }
+
+  #contact-form-area {
+    margin-top: 20px;
+  }
+
+  #contact-us .border,
+  #contact-us .border-form {
+    padding-bottom: 40px;
+  }
+
+  #user-guide-fleet .single-fleet-box,
+  #installation-fleet .single-fleet-box {
+    width: 100%;
+  }
+
+  #support-form-area {
+    margin-top: 20px;
+  }
+
+  #support-about .fleet-para p,
+  #support-form-area .fleet-para span {
+    font-size: 14px;
+  }
+
+  #support-about {
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #support-about-4,
+  #support-about-3,
+  #support-about-2 {
+    margin-top: 30px;
+  }
+
+  #support-about .fleet-para p:nth-child(1) {
+    margin-bottom: 10px;
+  }
+
+  #support-press .fleet-para p,
+  .inner-fleet-span-2 p,
+  .inner-fleet-span-2 span,
+  #support-press .fleet-para p,
+  .list-para ul li,
+  #fleet-list-para ul li a,
+  .error-inner p {
+    font-size: 14px !important;
+  }
+
+  .list-para ul li {
+    text-align: start;
+  }
+
+  #fleet-span-2 p:nth-child(3),
+  .inner-fleet-span-2 p {
+    margin-top: 20px;
+  }
+
+  .privacy-notice .about-fleet {
+    margin-bottom: 20px !important;
+  }
+
+  #para-gap p:not(:first-child) {
+    margin-top: 10px;
+  }
+
+  .error-inner h3 {
+    font-size: 28px;
+  }
+
+  #research-boxes .single-fleet-box h3 {
+    font-size: 18px;
+  }
+
+  #research-tools-fleets .fleet-para p,
+  #research-boxes .single-fleet-box p,
+  #system-overview .about-fleet .fleet-para p,
+  #system-overview .about-fleet .fleet-para p {
+    font-size: 14px;
+  }
+
+  #system-overview .about-fleet .fleet-para h3 {
+    font-size: 28px;
+  }
+
+  .presenter-head h2 {
+    font-size: 28px;
+  }
+
+  #system-about,
+  #system-overview .border-form,
+  #system-overview .sp-border {
+    padding-bottom: 20px !important;
+  }
+
+  .presenter-head,
+  #system-about {
+    margin-top: 20px;
+  }
+
+  #presenters-boxes .single-fleet-box p,
+  #system-overview .about-fleet .fleet-para ul li {
+    font-size: 14px;
+  }
+
+  #system-overview .about-fleet .fleet-para p {
+    margin-bottom: 10px;
+  }
+
+  #partner-fleet-boxes .single-fleet-box #partner-inner p,
+  #partner-form .fleet-para p {
+    font-size: 14px;
+  }
+
+  #partner-form .fleet-para p,
+  #partner-detail-fleet .about-fleet p,
+  .partner-content ul li {
+    font-size: 14px;
+  }
+
+  #partner-detail-hero .left-content-sol {
+    width: unset;
+  }
+
+  #partner-detail-hero .banner-content-sol .container {
+    width: 100%;
+  }
+
+  #partner-detail-hero .start-btn {
+    margin: 0 auto;
+  }
+
+  #partner-purposes .purpose-head h2 {
+    font-size: 28px;
+  }
+
+  .partner-safety-purposes {
+    flex-direction: column;
+  }
+
+  .partner-content {
+    width: 100%;
+  }
+
+  #partner-purposes {
+    margin-top: 30px;
+  }
+
+  .partner-content h3,
+  #achievement-border h2,
+  #awards h3,
+  .customer-top h2,
+  .cus-box h3 {
+    font-size: 24px !important;
+  }
+
+  #awards .fleet-para p,
+  .customer-top p,
+  .cus-box p {
+    font-size: 14px;
+  }
+
+  .cus-box {
+    width: 40%;
+  }
+
+  .other-cus-box {
+    margin-top: 20px;
+  }
+
+  .acm-inner {
+    flex-direction: column;
+  }
+
+  .acm-inner p {
+    width: 100%;
+  }
+
+  .accomplishment-after a {
+    margin-top: 10px;
+    font-size: 12px;
+    width: 200px;
+  }
+
+  .purpose-head h2,
+  .accomplishment-head h2,
+  .event-head h2 {
+    font-size: 28px;
+  }
+
+  #carrer-safety {
+    margin-top: -26px;
+  }
+
+  .acm-inner p {
+    font-size: 14px;
+  }
+
+  .acm-inner {
+    gap: 5px;
+  }
+
+  .gallery-left img:nth-child(3),
+  .gallery-left img:nth-child(4),
+  .gallery-left img:nth-child(5) {
+    width: 28%;
+  }
+
+  .gallery-left img:nth-child(2) {
+    width: 60%;
+  }
+
+  #resume select {
+    width: 100%;
+  }
+
+  #referal-program .fleet-para p,
+  .question-area ul li,
+  .question-area p {
+    font-size: 14px;
+  }
+
+  #referal-program .fleet-para p:nth-child(2) {
+    margin-top: 5px;
+  }
+
+  .question-area h3 {
+    font-size: 28px;
+  }
+
+  .qualified-question {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .question-btns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .q-green,
+  .q-blue {
+    width: 70%;
+  }
+
+  #checklist .fleet-para p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .c-support h3 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  #checklist-boxes .single-fleet-box {
+    width: 100%;
+  }
+
+  .accident-a {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .dtc-head h2,
+  #dtc-box .tour-box h2 {
+    font-size: 28px;
+  }
+
+  .dtc-head p {
+    font-size: 14px;
+  }
+
+  .table-upper h5 {
+    font-size: 16px;
+  }
+
+  .dtc-table thead th {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .dtc-table tbody tr td {
+    font-size: 14px;
+  }
+
+  .table-upper {
+    margin: 20px 0;
+  }
+
+  .dtc-head {
+    margin-top: 20px;
+  }
+
+  .dtc-head p {
+    margin-top: 10px;
+  }
+
+  .dtc-btns {
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .dtc-table-area,
+  .dtc-border {
+    padding-bottom: 30px;
+  }
+
+  #dtc-box .tour-content .system input {
+    width: 100%;
+  }
+
+  #dtc-box .tour-box p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  #event-tabbing {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  #company-event-para p {
+    font-size: 14px;
+  }
+
+  #company-btns {
+    padding-bottom: 30px;
+  }
+
+  #event-tabbing {
+    margin: 20px 0;
+  }
+
+  #roi-calculator .fleet-para p {
+    font-size: 14px;
+  }
+
+  #roi-form {
+    padding-top: 0;
+  }
+
+  #about-fieldlogix {
+    padding-bottom: 0 !important;
+  }
+
+  .blue-box p {
+    font-size: 16px !important;
+  }
+
+  #blue-fleet-para,
+  #history,
+  .idustry {
+    margin-top: 20px;
+  }
+
+  .industry-left h2 {
+    font-size: 28px;
+  }
+
+  .industry-left p,
+  .history-slide p {
+    font-size: 14px;
+  }
+
+  .pagination-boxes .blog-box .blog-content p {
+    font-size: 14px;
+  }
+
+  .all-blogs .blog-box {
+    width: 100%;
+  }
+
+  .blog-upper-right .blog-content p,
+  #improves-box .purpose p {
+    font-size: 14px;
+  }
+
+  #case-box .blog-box .blog-content {
+    min-height: inherit;
+  }
+
+  .page-tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 75%;
+  }
+
+  #safety-para p,
+  #improve-safety-head p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  #improve-safety-purpose {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  #improves-box {
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  .improve-a {
+    width: 85% !important;
+  }
+
+  #Safe-btn .fuel-fleet-green,
+  #Safe-btn .fuel-fleet-blue,
+  .improve-a {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .contact-form form select {
+    width: 100%;
+  }
+
+  #watch-improve {
+    margin-top: 20px;
+  }
+
+  #improve-form {
+    padding-bottom: 30px;
+  }
+
+  .roi-popup-left h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .popup-inner img,
+  .right-inner,
+  .roi-right-calculator {
+    margin-bottom: 20px;
+  }
+
+  .right-flex p,
+  .right-flex span,
+  .roi-right-calculator-area p,
+  .roi-right-calculator span {
+    font-size: 14px;
+  }
+
+  .roi-popup-left h3 {
+    margin-bottom: 5px;
+  }
+
+  .popup-tour .tour-box .system input {
+    width: 100% !important;
+  }
+
+  #steps-btn .fuel-fleet-green {
+    margin-top: 50px;
+  }
+
+  #improve-screen {
+    margin-top: 30px;
+  }
+
+  .roi-right-calculator {
+    overflow-x: scroll;
+    width: 100%;
+    white-space: nowrap;
+  }
+
+  #fraud-about {
+    margin-top: 30px;
+  }
+
+  .contact-form form input,
+  .contact-form form select {
+    width: 100%;
+  }
+
+  #safety-para p,
+  #improve-safety-head p {
+    margin-bottom: 40px;
+  }
+
+  #improve-form .fleet-para p,
+  #fraud-para ul li,
+  #fraud-para p,
+  .accident-popup-bottom p,
+  .accident-popup-bottom ul li {
+    font-size: 14px;
+  }
+
+  #emergency-about {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+
+  .fuel-lists,
+  .all-months {
+    width: 100%;
+  }
+
+  .all-months {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .cost-border .fleet-para ul li,
+  #resume span {
+    font-size: 14px;
+  }
+
+  .cost-border {
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+
+  .accident-b {
+    width: 100% !important;
+    padding: 0 5px;
+  }
+
+  .head-button img {
+    width: 30px;
+    margin-top: -10px;
+  }
+
+  .gallery-left .hov-event:nth-child(3),
+  .gallery-left .hov-event:nth-child(4),
+  .gallery-left .hov-event:nth-child(5) {
+    width: 29.5%;
+  }
+
+  .gallery-left .hov-event:nth-child(2) {
+    width: 60.5%;
+  }
+
+  .hov-event h6 {
+    font-size: 14px;
+    left: 0;
+    width: 20%;
+  }
+
+  .popup-container {
+    width: 90% !important;
+  }
+
+  .vehicle-Inspection .banner-content-sol .container {
+    width: 100% !important;
+  }
+
+  section#clock-app .left-content-sol {
+    width: unset;
+  }
+
+  section#clock-app .start-btn {
+    margin: 0 auto;
+  }
+
+  section#install-banner .banner-content-sol .container {
+    width: 100%;
+  }
+
+  section#install-banner .left-content-sol {
+    width: unset;
+  }
+
+  section#install-banner .start-btn {
+    margin: 0 auto;
+  }
+
+  section#plan-hero .start-btn {
+    margin: 0 auto;
+  }
+
+  .sol-box-4 {
+    padding-bottom: 0 !important;
+  }
+
+  .blog-slider {
+    margin-left: 0px;
+  }
+
+  .blog-head h2 {
+    font-size: 20px;
+  }
+
+  .cap-box {
+    width: 100%;
+  }
+
+  .about-fleet p {
+    font-size: 14px;
+  }
+
+  .success-left p {
+    font-size: 14px;
+  }
+
+  .left-content-sol {
+    margin-top: 120px !important;
+  }
+
+  .safety-purposes {
+    gap: 20px;
+  }
+
+  .fuel-slider {
+    margin-left: 20px;
+  }
+
+  .answer p {
+    font-size: 14px;
+  }
+
+  .question-active p {
+    font-size: 16px !important;
+  }
+
+  .goose-video-area p {
+    font-size: 14px;
+  }
+
+  .real-ban .start-btn,
+  .dev .start-btn,
+  .integrations .start-btn,
+  .vis-aft .start-btn,
+  .prevent .start-btn,
+  .guide-new .start-btn,
+  section#new-width .start-btn,
+  #roi-width .start-btn,
+  .page-id-832 .start-btn {
+    margin: 0 auto;
+  }
+
+  .real-ban .left-content-sol {
+    margin-bottom: 20px;
+  }
+
+  .device .about-fleet h3 {
+    font-size: 22px;
+  }
+
+  .integrations .left-content-sol,
+  .guide-new .left-content-sol {
+    margin-bottom: 20px;
+  }
+
+  #integration-fleet .all-purposes {
+    margin-bottom: 30px;
+  }
+
+  #integration-fleet .safety-purposes {
+    margin-bottom: 10px;
+  }
+
+  .integrations .left-content-sol h1 {
+    font-size: 22px !important;
+    margin-top: 10px !important;
+  }
+
+  .fleet-para p>a {
+    font-size: 14px;
+  }
+
+  #mbl-border {
+    margin-bottom: 20px;
+  }
+
+  section#resources-fleets .single-fleet-box {
+    width: 100%;
+  }
+
+  .nav-links {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  #support-press #fleet-list-para ul li a {
+    font-size: 14px;
+  }
+
+  #Safe-btn .fuel-fleet-green {
+    width: 100%;
+  }
+
+  #calc-btn {
+    margin-top: 10px;
+  }
+
+  #safety-para p,
+  #safety-para p:nth-child(5) {
+    margin-bottom: 20px !important;
+  }
+
+  .fl-rich-text h3 {
+    margin-bottom: 20px;
+  }
+
+  #emergency-boxes .single-fleet-box a {
+    display: block;
+  }
+
+  .part-ban .left-content-sol {
+    margin-top: 120px !important;
+  }
+
+  .choice-box {
+    height: 130px;
+  }
+
+  .capabilities-container {
+    padding: 0;
+  }
+
+  .capability-slider.slick-initialized .slick-slide,
+  .capability-slider-2.slick-initialized .slick-slide {
+    margin-left: 32px;
+  }
+
+  .blog-slider.slick-initialized .slick-slide {
+    margin-right: 0;
+    display: flex;
+    margin-left: 0;
+  }
+
+  .page-id-40440 #productivity .left-content-sol,
+  .page-id-40453 #productivity .left-content-sol,
+  .page-id-40551 #benefits .left-content-sol {
+    margin-top: 175px !important;
+  }
+
+  .banner-buttons-sol {
+    margin-top: 25px;
+  }
+
+  .page-id-41002 .electronicLoggingDevice .left-content-sol {
+    margin-top: 165px !important;
+  }
+
+  .page-id-1001 #partner-detail-hero .left-content-sol h1,
+  .page-id-983 #partner-detail-hero .left-content-sol h1 {
+    font-size: 20px;
+  }
+
+  .gform_legacy_markup_wrapper ul.gfield_checkbox li label {
+    width: unset !important;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .compare-table-area #ntb_table {
+    border-spacing: 0px 0px !important;
+  }
+
+  .compare-table-area #ntb_table tr {
+    border-spacing: 0 0px !important;
+  }
+
+  .compare-table-area #ntb_table tr td {
+    border-spacing: 0px !important;
+  }
+
+  /* .compare-table-area #ntb_table tr td:first-child {
+    padding: 0px !important;
+  } */
+}
+
+@media only screen and (max-width: 1023px) {
+  .compare-table-area #ntb_table tr td#td_id_38523230 span {
+    color: #fff !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+  }
+
+  .compare-table-area #ntb_table {
+    border-spacing: 8px 0px !important;
+  }
+
+  .compare-table-area #ntb_table tr:first-child td:nth-child(1),
+  .compare-table-area #ntb_table tr:first-child td:nth-child(2),
+  .compare-table-area #ntb_table tr:first-child td:nth-child(3) {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .compare-table-area #ntb_table tr td#td_id_18657594 span {
+    color: #fff !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .page-id-43266 .fleet-para a {
+    width: 100%;
+  }
+
+  .compare-table-area #ntb_table tr td {
+    min-width: 33% !important;
+    max-width: max-content !important;
+    /* background-color: transparent !important; */
+  }
+
+  .compare-table-area #ntb_table tr:nth-child(1) td:nth-child(2) {
+    background-color: #036 !important;
+  }
+
+  /* .compare-table-area #ntb_table tr:nth-child(1) td:nth-child(3) {
+    background-color: #E8F4FF !important;
+  } */
+
+  .compare-table-area #ntb_table tr:nth-child(1) td span {
+    font-size: 12px !important;
+  }
+
+  .compare-table-area #ntb_table tr td:nth-child(1) span {
+    font-size: 14px !important;
+  }
+
+  .compare-table-area #ntb_table {
+    border-collapse: separate !important;
+    border-spacing: 0px 0px !important;
+    box-sizing: border-box !important;
+    padding: 0px !important;
+    max-width: 810px !important;
+    min-width: auto !important;
+    width: 100% !important;
+  }
+
+  .compare-table-area #ntb_table tr:first-child td:nth-child(1) span {
+    font-size: 14px !important;
+  }
+
+  .compare-table-area #ntb_table tr:first-child td:nth-child(2) span svg {
+    max-width: 60px;
+  }
+
+  .compare-table-area #ntb_table tr:first-child td:nth-child(3) span {
+    font-size: 14px !important;
+  }
+
+  .compare-table-area #ntb_table tr td span {
+    font-size: 13px !important;
+    padding: 0 10px !important;
+  }
+
+  .compare-table-area #ntb_table tr td:first-child span {
+    padding-left: 0px !important;
+    padding-right: 5px !important;
+  }
+
+  .compare-table-area #ntb_table tbody {
+    display: revert !important;
+  }
+
+  .li-none ul .btn-none {
+    display: flex;
+  }
+
+  #navbar ul li a {
+    font-size: 14px;
+    padding: 0 15px;
+    height: 30px;
+  }
+
+  #navbar .sub-menu li a {
+    padding: 10px 25px;
+  }
+
+  .dropdown-container {
+    width: 30px;
+    height: 30px;
+  }
+
+  .mbl-dropdown a img {
+    width: 15px;
+  }
+
+  #navbar ul li {}
+
+  .li-none li p,
+  #navbar .li-none li a {
+    font-size: 14px;
+  }
+
+  .li-none {
+    margin: 40px 0px 0px;
+  }
+
+  .get-started #navbar {
+    max-width: 100%;
+    padding-top: 30px !important;
+  }
+
+  .mobile-logo a {
+    display: block;
+  }
+
+  .mobile-logo {
+    padding: 0 0 0 15px;
+    margin: -10px 0px 5px;
+    display: block;
+  }
+
+  .trouble-data {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: block !important;
+  }
+
+  .page-id-46547 #tour-fleets .fleet-boxes .single-fleet-box {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .hamburger {
+    margin-top: 20px;
+  }
+
+  .fuel-slider-box img {
+    width: 80%;
+  }
+
+  .contact-form form input {
+    width: 100%;
+  }
+
+  .head-button img {
+    width: 30px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .achievements img {
+    height: 89px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .dtc-table tbody tr td {
+    font-size: 12px;
+  }
+
+  .dtc-table thead th {
+    font-size: 13px;
+  }
+
+  .page-tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 70%;
+  }
+
+  /* 	.button{
+		width: 100%;
+	} */
+
+}

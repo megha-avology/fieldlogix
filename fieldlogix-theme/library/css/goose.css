@@ -1,0 +1,420 @@
+/*
+ * General Page Styling
+ * -------------------------------------------------------------------------- */
+.page-template-page-goose #inner-content {
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	overflow: hidden; /* Allows positioning of elements partially off-screen */
+}
+
+.page-template-page-goose #inner-content h1,
+.page-template-page-goose #inner-content h2,
+.page-template-page-goose #inner-content h3,
+.page-template-page-goose #inner-content h4,
+.page-template-page-goose #inner-content h5 {
+	font-weight: 900;
+}
+
+.page-template-page-goose .container {
+	position: relative;
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding:40px 0; 
+}
+
+
+/*
+ * Intro / Header Section
+ * -------------------------------------------------------------------------- */
+.goose_header_image img {
+	width:100%;
+	height: auto;
+	display: block;
+}
+
+.goose-header {
+	background: url(../images/goose/header_banner.jpg) no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+	color: #fff;
+}
+
+.goose-header-container {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 540px;
+	padding: 30px 0;
+}
+
+.goose-header-container p,
+.goose-header-container h1 {
+	margin: 0;
+}
+
+.goose_intro {
+	color: #fff;
+	font-size: 17px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#529acb+0,003366+82 */
+	background: #529acb; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #529acb 0%, #003366 82%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#529acb), color-stop(82%,#003366)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #529acb 0%,#003366 82%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #529acb 0%,#003366 82%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #529acb 0%,#003366 82%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #529acb 0%,#003366 82%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#529acb', endColorstr='#003366',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.goose_intro h1 {
+	margin:0 0 5px 0;
+	font-size: 48px;
+	line-height: 50px;
+	color: #fff;
+}
+
+.goose_intro img {
+	display: block;
+}
+
+.goose_mascot {
+	position: absolute;
+	bottom: 7%;
+	left: 0;
+	margin: 0;
+}
+
+.goose_in_hand{
+	position: absolute;
+	bottom: 0;
+	right: -91px;
+	margin: 0;
+	width: 32%;
+}
+
+.goose_intro_content {
+	width: 480px;
+	margin: 0 auto;
+}
+
+.goose_intro_content p:first-of-type {
+	margin-bottom: 6px;
+}
+
+.goose_intro_content p:last-of-type {
+	margin-bottom: 0;
+}
+
+/*
+ * 3-Column Content
+ * -------------------------------------------------------------------------- */
+.goose_content_columns {
+	font-size: 15px;
+}
+
+.goose_content_columns .fourcol h2 {
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: #000;
+}
+
+/*
+ * Device Screenshots
+ * -------------------------------------------------------------------------- */
+.goose_screenshots {
+	background: #f2f2f2;
+	text-align: center;
+}
+
+.goose_screenshots h2 {
+	color: #000;
+	font-size: 24px;
+	margin-bottom: 12px;
+}
+
+/*
+ * Sign Up Form
+ * -------------------------------------------------------------------------- */
+.goose_form h2.price {
+	color: #565656;
+	font-size: 28px;
+}
+
+.goose_form_container {
+	position: relative;
+	width: 488px;
+	margin: 0 auto;
+	padding-left: 120px;
+}
+
+.goose_form h2 {
+	color: #000;
+}
+
+.goose_form h2.vertical_stripe:before {
+	background: #ff9900;
+	content: "";
+	width: 5px;
+	height: 25px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.goose_on_form {
+	position: absolute;
+	bottom: 0;
+	left:0;
+	margin: 0;
+	display: block;
+	width: 130px;
+	max-width: 130px;
+}
+
+.goose_form .gform_wrapper {
+	background: none;
+	padding: 0;
+	border: 0;
+	box-shadow: none;
+	max-width: 368px;
+}
+
+.goose_form .gform_wrapper li, .gform_wrapper form li {
+	padding: 0;
+}
+
+#inner-content .goose_form ul li {
+	padding-bottom: 0;
+}
+
+.goose_form .gform_wrapper .top_label .gfield_label {
+	display: none;
+}
+
+.goose_form .gform_wrapper .ginput_complex.ginput_container.has_first_name.no_middle_name.has_last_name span.name_first {
+	margin-right: 0;
+}
+
+.goose_form .gform_wrapper .gform_body .gform_fields .gfield input,
+.goose_form .gform_wrapper .gform_body .gform_fields .gfield input[type=email],
+.goose_form .gform_wrapper .gform_body .gform_fields .gfield input[type=tel],
+.goose_form .gform_wrapper .gform_body .gform_fields .gfield input[type=text] {
+	border: 1px solid #cfd7dc;
+	border-radius: 0;
+	font-size: 14px;
+	padding: .75em 0
+}
+
+.goose_form .gform_wrapper .gform_footer {
+	margin-top: .375em;
+}
+
+.goose_form .gform_wrapper .gform_footer input[type=submit] {
+	width: 97.5%;
+	text-align: center;
+	padding: 8px 0;
+	text-transform: uppercase;
+	font-weight: 400;
+	background: #ff9900;
+}
+
+.goose_form .gform_wrapper .gform_footer input[type=submit]:hover  {
+	background: #FF0000
+}
+
+
+/*
+ * Info Blurbs w/ Icons
+ * -------------------------------------------------------------------------- */
+.goose_info {
+	background: #f2f2f2;
+}
+
+.info_blurb {
+	display: table;
+	max-width: 760px;
+	margin: 0 auto 40px auto;
+}
+
+.info_blurb p {
+	margin-bottom: 0;
+}
+
+.goose_info .fourcol {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	float: none;
+}
+
+.goose_info .eightcol {
+	display: table-cell;
+	vertical-align: top;
+	float: none;
+}
+
+.goose_info .fourcol img {
+
+}
+
+/*
+ * Video Embed
+ * -------------------------------------------------------------------------- */
+
+.goose-video {
+	border: 5px solid #fff;
+}
+
+.mobile-space {
+	display: none;
+}
+
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%;
+	overflow: hidden;
+	max-width: 100%;
+	height: 0;
+
+} 
+
+.embed-container .fluid-width-video-wrapper {
+	
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed { 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/*
+ * Media Queries
+ * -------------------------------------------------------------------------- */
+
+
+
+@media only screen and (min-width: 1401px) and (max-width: 1679px) {
+
+	.goose_mascot {
+		width: 230px;
+	}
+	
+	.goose_in_hand {
+		width: 340px;
+	}
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+	.goose_mascot {
+		width: 130px;
+	}
+	
+	.goose_in_hand {
+		width: 200px;
+	}
+
+	.goose_intro_content {
+		width: 400px;
+		-moz-hyphens: none !important;
+		-ms-hyphens: none !important;
+		-webkit-hyphens: none !important;
+		hyphens: none !important;
+		word-wrap:none !important;
+	}
+	
+}
+
+
+@media only screen and (max-width: 767px) {
+
+	.goose_intro img {
+		max-width: 220px !important;
+	}
+
+	.info_blurb,
+	.goose_info .fourcol,
+	.goose_info .eightcol {
+		display: block;
+		text-align: center;
+	}
+
+	#inner-content .info_blurb p {
+		text-align: center;
+	}
+
+	.info_blurb {
+		margin-bottom: 40px;
+	}
+
+	.info_blurb:last-of-type {
+		margin-bottom: 0;
+	}
+
+	.goose_mascot {
+		position: relative;
+		margin: -100px auto 0 auto;
+		width: 50px;
+		display: block;
+	}
+	
+	.goose_in_hand {
+		width: 150px;
+		right: 50%;
+		margin-right: -90px;
+	}
+
+	.goose_intro_content {
+		margin-bottom: 222px;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -3px;
+	}
+
+	.goose_intro h1 {
+		font-size: 36px;
+		line-height: 40px;
+	}
+
+	.goose_form_container {
+		width: 100%;
+		padding-left: 0;
+	}
+
+	.goose_on_form {
+		display: none;
+	}
+
+	.goose_form .gform_wrapper {
+		max-width: none;
+	}
+
+	.mobile-space {
+		height: 30px;
+		overflow: hidden;
+		display: block;
+		width: 100%;
+	}
+
+	.goose-header-container {
+		padding-bottom: 66px;
+	}
+
+}
+
+
+@media only screen and (max-width: 568px) {
+
+	.goose_intro h1 {
+		font-size: 32px;
+		line-height: 38px;
+	}
+
+}

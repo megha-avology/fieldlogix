@@ -1,0 +1,433 @@
+.iframe-container iframe {
+    width: 100%;
+    height: 562px;
+}
+
+.cst-customtab-sec .container {
+    /* width: 90%; */
+    /* width: 100%; */
+    /* max-width: 1310px; */
+    /* max-width: 1280px; */
+    /* max-width: 1280px; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+}
+
+.cst-customtab-sec .hero-video video,
+.cst-customtab-sec .hero-video iframe {
+    width: 100%;
+    height: 460px;
+    aspect-ratio: 16/9;
+    display: block;
+    border-radius: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .08);
+    margin-bottom: 0;
+}
+
+/* --- Buttons --- */
+.cst-customtab-sec .button-group {
+    margin: 5px auto;
+    border-radius: 4px;
+    border: .5px solid #53a42a;
+    padding: 10px;
+    max-width: max-content;
+    display: flex;
+    justify-content: center;
+    /* gap: 15px; */
+    flex-wrap: nowrap;
+    background: #fff;
+}
+
+
+.cst-customtab-sec .button-group button {
+    padding: 12px 24px;
+    border-radius: 4px;
+    background: #fff;
+    color: #036;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .72px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+
+}
+
+.cst-customtab-sec .button-group button.activebtn {
+    border: .5px solid #53a42a;
+    background: #53a42a;
+    color: #fff;
+}
+
+/* --- Slider Images --- */
+.cst-customtab-sec .slick-slide {
+    margin: 2px 4px;
+    cursor: pointer;
+}
+
+/* .cst-customtab-sec .slider img {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        background: #e8f4ff;
+        padding: 7px;
+    } */
+.cst-customtab-sec .slider img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    background: #fff;
+    padding: 1px;
+}
+
+/* --- Custom Slick Arrows --- */
+.cst-customtab-sec .slick-prev,
+.cst-customtab-sec .slick-next {
+    width: 40px;
+    height: 40px;
+    background: #2a5d92;
+    border-radius: 50%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    transition: background .3s, transform .2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.cst-customtab-sec .slick-prev:hover,
+.cst-customtab-sec .slick-next:hover {
+    background: #1d436b;
+}
+
+.cst-customtab-sec .slick-prev:before,
+.cst-customtab-sec .slick-next:before {
+    font-size: 20px;
+    opacity: 1;
+    color: #fff;
+}
+
+.cst-customtab-sec .slick-prev {
+    left: -50px;
+}
+
+.cst-customtab-sec .slick-next {
+    right: -50px;
+}
+
+/* Center arrows vertically */
+.cst-customtab-sec .slick-prev,
+.cst-customtab-sec .slick-next {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section.cst-customtab-sec {
+    background: #e8f4ff;
+    padding-top: 157px;
+    padding-bottom: 60px;
+    overflow: hidden;
+    /* margin-top: 80px; */
+}
+
+.cst-customtab-sec .button-group button.active {
+    background: #2aba00;
+    color: #fff;
+}
+
+.slider-parent:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -600px;
+    background: #ffffff;
+    width: calc(100% + 1200px);
+    height: calc(100% + 30px);
+}
+
+.slider-parent {
+    position: relative;
+}
+
+.cst-customtab-sec .slick-prev,
+.cst-customtab-sec .slick-next {
+    background: #2c5d7f;
+    /* dark blue circle */
+    color: #fff;
+    /* white arrow */
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.cst-customtab-sec .slick-prev:before,
+.cst-customtab-sec .slick-next:before {
+    display: none;
+}
+
+.cst-customtab-sec .slick-prev:hover,
+.cst-customtab-sec .slick-next:hover {
+    background: #c8d5de;
+}
+
+.cst-customtab-sec .slick-prev {
+    left: -50px;
+    /* adjust position */
+}
+
+.cst-customtab-sec .slick-next {
+    right: -50px;
+    /* adjust position */
+}
+
+/* Default state */
+.cst1 .sliders-wrapper div[data-video] img {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+    /* invisible border to avoid layout shift */
+    border-radius: 6px;
+    /* match your design */
+}
+
+/* Hover state */
+.cst1 .sliders-wrapper div[data-video]:hover img {
+    transform: scale(1.04);
+    /* pop effect */
+    border-color: #4CAF50;
+    /* green border */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+    /* soft shadow */
+}
+
+.cst-customtab-sec.cst1 .sliders-wrapper .slider {
+    display: none;
+}
+
+.cst-customtab-sec.cst1 .sliders-wrapper .slider.active-slider {
+    display: block;
+}
+
+.cst-customtab-sec .hero-video iframe {
+    box-shadow: none;
+}
+
+.cst-customtab-sec .slick-slide.current_cls img {
+    border: 2px solid #4CAF50 !important;
+}
+
+button.left-btn,
+button.right-btn {
+    background: #2c5d7f;
+    color: #fff;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    flex-shrink: 0;
+    display: none;
+}
+
+.btn-group-parent {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Make all thumbnails consistent */
+.cst1 .sliders-wrapper .slider img {
+    max-height: 20vw;
+    /* scale by viewport width */
+    height: auto;
+    width: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Make slider wrapper aligned */
+.cst1 .sliders-wrapper .slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .cst-customtab-sec .button-group button {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .cst-customtab-sec .button-group {
+        overflow-x: scroll;
+        white-space: nowrap;
+        width: 100%;
+        scrollbar-width: thin;
+        max-width: 100%;
+        display: block;
+    }
+
+    button.left-btn,
+    button.right-btn {
+        display: block;
+    }
+}
+
+@media (max-width: 1023px) {
+    .sliders-wrapper {
+        width: calc(90%);
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .cst-customtab-sec .slick-next {
+        right: -45px;
+    }
+
+    .cst-customtab-sec .slick-prev {
+        left: -45px;
+    }
+
+    .iframe-container iframe {
+        width: 100%;
+        height: 451px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .cst-customtab-sec .hero-video video,
+    .cst-customtab-sec .hero-video iframe {
+        height: auto;
+    }
+
+    .cst-customtab-sec .slick-prev,
+    .cst-customtab-sec .slick-next {
+        height: 35px;
+        width: 35px;
+    }
+
+    .cst-customtab-sec .slick-next {
+        right: -38px;
+    }
+
+    .cst-customtab-sec .slick-prev {
+        left: -35px;
+    }
+
+    .iframe-container iframe {
+        width: 100%;
+        height: 357px;
+    }
+
+    button.left-btn,
+    button.right-btn {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 660px) {
+    .cst-customtab-sec .button-group {
+        margin: 5px auto;
+    }
+
+    .cst-customtab-sec .slick-list.draggable {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .cst-customtab-sec .slick-prev {
+        left: -35px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .cst-customtab-sec .slick-next {
+        right: -35px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .sliders-wrapper {
+        width: calc(100% - 80px);
+    }
+
+    button.left-btn,
+    button.right-btn {
+        width: 30px;
+        height: 30px;
+    }
+    
+}
+
+@media (max-width: 595px) {
+    .cst-customtab-sec .button-group {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: unset;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        gap: 10px;
+        padding: 8px;
+        width: 100%;
+        max-width: 100%;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .cst-customtab-sec .button-group button {
+        flex: 0 0 auto;
+        min-width: 100px;
+        text-align: center;
+        letter-spacing: 0;
+        padding: 12px 20px !important;
+        font-size: 10px;
+        margin: 0 auto;
+    }
+
+    /* Optional scrollbar style */
+    .cst-customtab-sec .button-group::-webkit-scrollbar {
+        height: 4px;
+    }
+
+    .cst-customtab-sec .button-group::-webkit-scrollbar-thumb {
+        background: #bbb;
+        border-radius: 3px;
+    }
+
+    
+}
+
+@media (max-width: 575px) {
+    .iframe-container iframe {
+        width: 100%;
+        height: 273px;
+    }
+}
+
+@media (max-width: 480px) {
+    .iframe-container iframe {
+        width: 100%;
+        height: 220px;
+    }
+}
+
+@media (max-width: 410px) {
+    .iframe-container iframe {
+        width: 100%;
+        height: 192px;
+    }
+}
