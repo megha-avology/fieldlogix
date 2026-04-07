@@ -1,2 +1,2 @@
 <?php
-// Silence is golden for all.
+// Silence is golden.
